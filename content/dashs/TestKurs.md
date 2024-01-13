@@ -3,8 +3,11 @@ title: TestKurs
 description: TestDashboard für einen beliebigen Kurs
 type: dashboard
 kurs: TestKurs
-vorlesungnr: 0
-tags: 
+vorlesungnr: 
+tags:
+  - sose24
+  - testkurs
+  - dashboard
 draft: true
 date: 2024-01-10
 ---

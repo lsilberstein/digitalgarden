@@ -3,7 +3,10 @@ title: Dashboard
 description: Internes Dashboard für alle Kurse
 type: page
 kurs: 
-tags: 
+vorlesungnr: 
+tags:
+  - dashboard
+  - sose24
 draft: true
 date: 2024-01-10
 ---
