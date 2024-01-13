@@ -23,3 +23,7 @@ public static void main(String[] args) {
 	System.out.println("Das hier ist ein Codeblock");
 }
 ```
+
+> [!Info]
+> Das hier ist eine Warnung
+
