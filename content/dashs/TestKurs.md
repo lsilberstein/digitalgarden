@@ -1,11 +1,12 @@
 ---
-kurs: TestKurs
-tags: 
 title: TestKurs
+description: TestDashboard für einen beliebigen Kurs
 type: dashboard
+kurs: TestKurs
+vorlesungnr: 0
+tags: 
 draft: true
 date: 2024-01-10
-description: TestDashboard für einen beliebigen Kurs
 ---
 
 # TestKurs
@@ -16,10 +17,9 @@ FROM "vl"
 WHERE kurs = "TestKurs"
 ```
 
-## Vorlesungen
-
 ```dataview
-LIST date
+TABLE title AS Titel, date AS Datum
 FROM "vl"
 WHERE kurs = "TestKurs"
+SORT vorlesungnr
 ```

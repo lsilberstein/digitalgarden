@@ -1,14 +1,14 @@
 ---
-kurs:
+title: Index
 description: Landing Page für mein online Repository
+type: page
+kurs: 
 aliases:
   - Index
 tags:
   - index
-type: page
 draft: false
 date: 2024-01-10
-title: Index
 linter-yaml-title-alias: Index
 ---
 
