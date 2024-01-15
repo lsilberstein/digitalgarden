@@ -17,6 +17,8 @@ linter-yaml-title-alias: Index
 
 Das hier ist eine Sammlung aller meiner Notizen für das Semester Sechs. Ich habe versucht, die Kurse ein wenig besser sichtbar zu machen. Über das Suchfeld können jetzt auch Inhalte in Texten gesucht werden. Jeder Kurs bekommt jetzt auch eine eigene Startseite, die hier aufgelistet werden soll:
 
-- [[pubdashs/Seminar]]
-- [[pubdashs/Mensch Computer Interaktion]]
-- [[pubdashs/Software Engineering Projekt]]
+- [[pubdashs/Software Engineering Projekt|Software Engineering Projekt]]
+- [[pubdashs/Mensch Computer Interaktion|Mensch Computer Interaktion]]
+- [[pubdashs/Seminar|Seminar]]
+
+Insgesamt sollen auch die Definitionsnodes besser geordnet werden. Hier soll mehr Text auf nur eine Page kommen statt wie davor. 
