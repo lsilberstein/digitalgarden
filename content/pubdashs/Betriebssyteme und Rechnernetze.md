@@ -1,17 +1,18 @@
 ---
-title: Mensch Computer Interaktion
+title: Betriebssysteme Und Rechnernetze
 description: 'Dashboard für den Kurs "Betriebssyteme und Rechnernetze".'
 type: public dashboard
 kurs: Betriebssyteme und Rechnernetze
 vorlesungnr: 
-aliases: [Mensch Computer Interaktion]
+aliases:
+  - Betriebssysteme Und Rechnernetze
 tags: [publicDashboard, sose24, OSNW]
 draft: false
 date: 2024-01-17
-linter-yaml-title-alias: Mensch Computer Interaktion
+linter-yaml-title-alias: Betriebssysteme Und Rechnernetze
 ---
 
-# Mensch Computer Interaktion
+# Betriebssysteme Und Rechnernetze
 
 Hier werden allgemeine Informationen, als auch Links zu allen Vorlesungsmitschriften für den Kurs *Betriebssysteme und Rechnernetze* ( #OSNW  )  veröffentlicht. 
 
