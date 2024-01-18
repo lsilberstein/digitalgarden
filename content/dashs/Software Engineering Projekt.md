@@ -12,6 +12,7 @@ draft: true
 date: 2024-01-13
 public dashboard: "[[pubdashs/Software Engineering Projekt|Software Engineering Projekt]]"
 ---
+
 # Software Engineering Projekt
 
 

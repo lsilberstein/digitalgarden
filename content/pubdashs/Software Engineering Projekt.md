@@ -1,10 +1,13 @@
 ---
 title: Software Engineering Projekt
-description: 'Dashboard für den Kurs "Software Engineering Projekt".'
+description: Dashboard für den Kurs "Software Engineering Projekt".
 type: public dashboard
 kurs: Software Engineering Projekt
 vorlesungnr: 
-tags: [publicDashboard, sose24, SOEP]
+tags:
+  - publicDashboard
+  - sose24
+  - SOEP
 draft: false
 date: 2024-01-13
 ---

@@ -3,8 +3,9 @@ title: Titel
 description: Eine kleine Page zum Testen der Vorlesungsseiten
 type: Vorlesung
 kurs: TestKurs
-vorlesungnr: 1
-aliases: [Titel]
+vorlesungnr: "1"
+aliases:
+  - Titel
 tags:
   - vorlesung
   - sose24

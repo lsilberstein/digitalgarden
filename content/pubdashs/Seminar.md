@@ -1,10 +1,13 @@
 ---
 title: Seminar
-description: 'Dashboard für den Kurs "Seminar".'
+description: Dashboard für den Kurs "Seminar".
 type: public dashboard
 kurs: Seminar
 vorlesungnr: 
-tags: [publicDashboard, sose24, SEMINAR]
+tags:
+  - publicDashboard
+  - sose24
+  - SEMINAR
 draft: false
 date: 2024-01-13
 ---
