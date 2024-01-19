@@ -4,10 +4,15 @@ description:
 type: Vorlesung
 kurs: Betriebssysteme und Rechnernetze
 vorlesungnr: 1
-aliases: [Einführung Betriebssysteme Und Rechnernetze]
-tags: [wise2324, "OSNW", "vorlesung", flashcard]
+aliases:
+  - Einführung Betriebssysteme Und Rechnernetze
+tags:
+  - wise2324
+  - OSNW
+  - vorlesung
+  - flashcard
 draft: false
-date: 2023-09-11
+date: 2023-09-18
 linter-yaml-title-alias: Einführung Betriebssysteme Und Rechnernetze
 ---
 
@@ -18,7 +23,7 @@ linter-yaml-title-alias: Einführung Betriebssysteme Und Rechnernetze
 - A general introduction to [[Operating System|Operating Systems]]
 - Key concept of the overall [[Windows architecture]]
 - [[Memory Management]]
-- [[Process management]] and [[Process management|Threat Management]]
+- [[Process management]] and [[Process management|Thread Management]]
 - The [[Image Loader]]
 - The [[Windows Registry]]
 
@@ -60,7 +65,8 @@ External and internal entities might try to *access* these certain [[Resources]]
 
 ## [[Audit]]
 
-Monitoring [[Resources]] and inspecting them if necessary, in order to make sure that they have been performing as expected.
+> [!Definition]
+> *Auditing* it the process of monitoring [[Resources]] and inspecting them if necessary, in order to make sure that they have been performing as expected.
 
 ## Managing Hardware [[Resources]]
 
@@ -99,7 +105,8 @@ Timing is assumed to be predictable. A [[Real Time Operating Systems|RTOS]] most
 
 ## [[Jitter]]
 
-*[[Jitter]]* is a measure of how much the execution time of a task differs over subsequent iterations (which depends on the amount of errors).
+> [!Definition]
+> *[[Jitter]]* is a measure of how much the execution time of a task differs over subsequent iterations (which depends on the amount of errors).
 
 # Anki
 

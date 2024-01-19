@@ -14,9 +14,10 @@ linter-yaml-title-alias: Betriebssysteme Und Rechnernetze
 
 # Betriebssysteme Und Rechnernetze
 
-Hier werden allgemeine Informationen, als auch Links zu allen Vorlesungsmitschriften für den Kurs *Betriebssysteme und Rechnernetze* ( #OSNW  )  veröffentlicht. 
+Hier werden allgemeine Informationen, als auch Links zu allen Vorlesungsmitschriften für den Kurs *Betriebssysteme und Rechnernetze* ( #OSNW ) veröffentlicht. 
 
 ## Vorlesungen
 
-- [[Einführung Betriebssysteme und Rechnernetze]] (11.09.2023)
+- [[Einführung Betriebssysteme und Rechnernetze]] (18.09.2023)
+- [[Eigenschaften eines OS, Processes, Kernel, Threads|Eigenschaften Eines OS, Processes, Kernel, Threads]] (25.09.2023)
 

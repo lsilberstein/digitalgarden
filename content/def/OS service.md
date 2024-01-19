@@ -1,5 +1,5 @@
 ---
-title: Process management
+title: OS service
 description: 
 type: definition
 kurs: 
@@ -9,6 +9,6 @@ tags:
 draft: false
 date: 
 aliases:
-  - Thread Management
+  - OS services
 ---
-# Process Management
+# OS Service
