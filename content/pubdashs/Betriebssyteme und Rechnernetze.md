@@ -21,3 +21,7 @@ Hier werden allgemeine Informationen, als auch Links zu allen Vorlesungsmitschri
 - [[Einführung Betriebssysteme und Rechnernetze]] (18.09.2023)
 - [[Eigenschaften eines OS, Processes, Kernel, Threads|Eigenschaften Eines OS, Processes, Kernel, Threads]] (25.09.2023)
 
+## Anki
+
+Ein Anki-Deck kann [hier](https://mega.nz/file/uYkRlYBY#-Yyuasv-GNAbN78JSBugNQnwuNr3T8mGi2BeGYQZA5k) gefunden werden. Dieses ist Stand 20.01.2024 noch in Arbeit.
+
