@@ -7,8 +7,8 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/lsilberstein",
+      Mail: "mailto:l.silberstein@ostfalia.de",
     },
   }),
 }
@@ -29,7 +29,34 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
-    Component.Graph(),
+    Component.Graph({
+      localGraph: {
+        drag: true,
+        zoom: true,
+        depth: 1,
+        scale: 1.05,
+        repelForce: 1,
+        centerForce: 0.7,
+        linkDistance: 15,
+        fontSize: 0.3,
+        opacityScale: 1,
+        removeTags: ["#", "#todo", "#flashcard"], // what tags to remove from the graph
+        showTags: false, // whether to show tags in the graph
+      },
+      globalGraph: {
+        drag: true,
+        zoom: true,
+        depth: -1,
+        scale: 0.9,
+        repelForce: 1,
+        centerForce: 0.7,
+        linkDistance: 15,
+        fontSize: 0.3,
+        opacityScale: 1,
+        removeTags: ["#", "#todo", "#flashcard"], // what tags to remove from the graph
+        showTags: true, // whether to show tags in the graph
+      },
+    }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
