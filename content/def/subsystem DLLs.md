@@ -1,5 +1,5 @@
 ---
-title: Windows Registry
+title: subsystem DLLs
 description: 
 type: definition
 kurs: 
@@ -9,6 +9,7 @@ tags:
 draft: false
 date: 
 aliases:
-  - Registry
+  - DLL
+  - DLLs
 ---
-# Windows Registry
+# Subsystem DLLs

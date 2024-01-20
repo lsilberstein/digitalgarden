@@ -1,5 +1,5 @@
 ---
-title: Windows Registry
+title: Services Administrative Tool
 description: 
 type: definition
 kurs: 
@@ -7,8 +7,6 @@ vorlesungnr: 0
 tags:
   - OSNW
 draft: false
-date: 
-aliases:
-  - Registry
+date:
 ---
-# Windows Registry
+# Services Administrative Tool

@@ -1,5 +1,5 @@
 ---
-title: Windows Registry
+title: Service Control Manager
 description: 
 type: definition
 kurs: 
@@ -9,6 +9,7 @@ tags:
 draft: false
 date: 
 aliases:
-  - Registry
+  - SCM
+  - Service Control Manager
 ---
-# Windows Registry
+# Service Control Manager

@@ -1,5 +1,5 @@
 ---
-title: Windows Registry
+title: Inter Process Communication
 description: 
 type: definition
 kurs: 
@@ -9,6 +9,6 @@ tags:
 draft: false
 date: 
 aliases:
-  - Registry
+  - IPC
 ---
-# Windows Registry
+# Inter Process Communication

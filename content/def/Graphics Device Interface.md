@@ -20,3 +20,5 @@ Like almost any other [[Operating System|OS]], [[Windows]] is an interactive [[O
 - Windows and dialogues
 - User interface controls
 - Drawing
+
+The [[Graphics Device Interface|windowing and graphics system]] is a [[Kernel Address Space|Kernel Mode]] component by design. It is required even on server systems with no interactive users logged on. It is embedded in an [[Operating System|OS]] component called *[[Windows Subsystem]]*, which is itself started by the so called *[[Session Manager]]* and also contains components in [[User Application Space|UAS]].
