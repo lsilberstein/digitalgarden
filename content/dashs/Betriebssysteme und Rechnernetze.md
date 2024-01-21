@@ -10,7 +10,7 @@ tags:
   - OSNW
 draft: true
 date: 2024-01-17
-public dashboard:
+public dashboard: "[[pubdashs/Betriebssysteme und Rechnernetze|Betriebssysteme und Rechnernetze]]"
 ---
 
 # Betriebssysteme und Rechnernetze

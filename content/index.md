@@ -20,6 +20,6 @@ Das hier ist eine Sammlung aller meiner Notizen für das Semester Sechs. Ich hab
 - [[pubdashs/Software Engineering Projekt|Software Engineering Projekt]]
 - [[pubdashs/Mensch Computer Interaktion|Mensch Computer Interaktion]]
 - [[pubdashs/Seminar|Seminar]]
-- [[Betriebssyteme und Rechnernetze]]
+- [[pubdashs/Betriebssysteme und Rechnernetze]]
 
 Insgesamt sollen auch die Definitionsnodes besser geordnet werden. Hier soll mehr Text auf nur eine Page kommen statt wie davor. 

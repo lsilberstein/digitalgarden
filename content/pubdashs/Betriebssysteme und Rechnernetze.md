@@ -2,7 +2,7 @@
 title: Betriebssysteme Und Rechnernetze
 description: 'Dashboard für den Kurs "Betriebssyteme und Rechnernetze".'
 type: public dashboard
-kurs: Betriebssyteme und Rechnernetze
+kurs: Betriebssysteme und Rechnernetze
 vorlesungnr: 
 aliases:
   - Betriebssysteme Und Rechnernetze
@@ -21,6 +21,7 @@ Hier werden allgemeine Informationen, als auch Links zu allen Vorlesungsmitschri
 - [[Einführung Betriebssysteme und Rechnernetze]] (18.09.2023)
 - [[Eigenschaften eines OS, Processes, Kernel, Threads|Eigenschaften Eines OS, Processes, Kernel, Threads]] (25.09.2023)
 - [[Key System Components and Policies]] (02.10.2023)
+- [[Windows Memory Management 1]] (07.10.2023)
 
 ## Anki
 
