@@ -15,3 +15,7 @@ aliases:
   - Central Processing Unit
 ---
 # Central Processing Unit
+
+Also called *[[Central Processing Unit|Von Neumann Architecture]]* for a multi-user, interactive and connected system.
+
+![[Pasted image 20231022162408.png]]
