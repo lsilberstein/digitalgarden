@@ -6,11 +6,7 @@ kurs: Betriebssysteme und Rechnernetze
 vorlesungnr: 1
 aliases:
   - Einführung Betriebssysteme Und Rechnernetze
-tags:
-  - wise2324
-  - OSNW
-  - vorlesung
-  - flashcard
+tags: [wise2324, OSNW, vorlesung, flashcard]
 draft: false
 date: 2023-09-18
 linter-yaml-title-alias: Einführung Betriebssysteme Und Rechnernetze
@@ -65,7 +61,7 @@ External and internal entities might try to *access* these certain [[Resources]]
 
 ## [[Audit]]
 
-> [!Definition]
+> [!Definition]  
 > *Auditing* it the process of monitoring [[Resources]] and inspecting them if necessary, in order to make sure that they have been performing as expected.
 
 ## Managing Hardware [[Resources]]
@@ -105,67 +101,74 @@ Timing is assumed to be predictable. A [[Real Time Operating Systems|RTOS]] most
 
 ## [[Jitter]]
 
-> [!Definition]
+> [!Definition]  
 > *[[Jitter]]* is a measure of how much the execution time of a task differs over subsequent iterations (which depends on the amount of errors).
 
 # Anki
 
-What is the definition of *[[Jitter]]* #flashcard  
+What is the definition of *[[Jitter]]* #flashcard
 *[[Jitter]]* is a measure of how much the execution time of a task differs over subsequent iterations (which depends on the amount of errors).
 <!--ID: 1705588835056-->
 
-For what is a [[General Purpose Operating Systems|general purpose Operating System]] designed? #flashcard  
+For what is a [[General Purpose Operating Systems|general purpose Operating System]] designed? #flashcard
 It is designed for user interactions such as workstations, servers and mobile devices.
 <!--ID: 1705588835049-->
 
-For what is a [[Real Time Operating Systems|Real Time Operating System]] designed? #flashcard  
+For what is a [[Real Time Operating Systems|Real Time Operating System]] designed? #flashcard
 It is designed to specifically run with very precise timing and a high degree of reliability.
 <!--ID: 1705588835050-->
 
-How many programs does a [[Real Time Operating Systems|RTOS]] typically run? #flashcard  
+How many programs does a [[Real Time Operating Systems|RTOS]] typically run? #flashcard
 One
 <!--ID: 1705588835051-->
 
-What is a typical application of a [[Real Time Operating Systems|RTOS]]? #flashcard  
-Medical devices, IoT, Aerospace, and so on.
+What is a typical application of a [[Real Time Operating Systems|RTOS]]? #flashcard
+- Medical devices 
+- IoT, Aerospace 
+- and so on.
 <!--ID: 1705588835052-->
 
-Why may there be some *regulatory compliance* in place for a [[Real Time Operating Systems|RTOS]]? #flashcard  
-In order to guarantee security, safety and scalability.
+Why may there be some *regulatory compliance* in place for a [[Real Time Operating Systems|RTOS]]? #flashcard
+In order to guarantee 
+- security
+- safety and 
+- scalability.
 <!--ID: 1705588835053-->
 
-What does *hard real-time* mean in the Context of a [[Real Time Operating Systems|RTOS]]? #flashcard  
+What does *hard real-time* mean in the Context of a [[Real Time Operating Systems|RTOS]]? #flashcard
 A [[Real Time Operating Systems|RTOS]] might guarantee a maximum time for the operations it performs.
 <!--ID: 1705588835054-->
 
-What does *soft real-time* mean in the context of a [[Real Time Operating Systems|RTOS]]? #flashcard  
+What does *soft real-time* mean in the context of a [[Real Time Operating Systems|RTOS]]? #flashcard
 Timing is assumed to be predictable. A [[Real Time Operating Systems|RTOS]] most likely performs operations in a specified time.
 <!--ID: 1705588835055-->
 
-What are six basic categories of [[semiconductors]]? #flashcard  
+What are six basic categories of [[semiconductors]]? #flashcard
 CPU, Memory, IoT Sensors, Power ICs, PSPs Digital Signal Processors, Analogue Chips to get and process waveforms
 <!--ID: 1705588835048-->
 
-What is the definition of *[[Audit]]*? #flashcard  
+What is the definition of *[[Audit]]*? #flashcard
 Monitoring [[Resources]] and inspecting them if necessary, in order to make sure that they have been performing as expected.
 <!--ID: 1705588835046-->
 
-What is [[Windows]] doing to gain oversight of access of [[resources]]? #flashcard  
+What is [[Windows]] doing to gain oversight of access of [[resources]]? #flashcard
 It [[Audit|audits]] every entity and keeps it under constant surveillance.
 <!--ID: 1705588835045-->
 
-What types of Hardware [[Resources|resource]] is an [[Operating System|OS]] supposed to manage? #flashcard  
+What types of Hardware [[Resources|resource]] is an [[Operating System|OS]] supposed to manage? #flashcard
 ![[image_h.png]]
 <!--ID: 1705588835047-->
 
-What types of entities might try to access [[Resources]]? #flashcard  
+What types of entities might try to access [[Resources]]? #flashcard
 External and internal entities might try to *access* certain [[Resources]].
 <!--ID: 1705588835044-->
 
-What types of [[Resources]] can exist? #flashcard  
-Hardware, Data, Processes
+What types of [[Resources]] can exist? #flashcard
+- Hardware
+- Data 
+- Processes
 <!--ID: 1705588835043-->
 
-What is the existential goal of an [[Operating System]]? #flashcard  
+What is the existential goal of an [[Operating System]]? #flashcard
 Using some Process and data to manage a bunch of [[Resources]].
 <!--ID: 1705588835040-->

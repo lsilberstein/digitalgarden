@@ -156,7 +156,10 @@ Because of a highly diversified ecosystem.
 
 
 What *four* features need to be accomplished by an [[Operating System|OS]] to manage a tradeoff between the amount of [[Process|Processes]] and limited [[Resources]]? #flashcard
-reliability, security, efficiency, resilience
+- reliability
+- security
+- efficiency
+- resilience
 <!--ID: 1705739704789-->
 
 
@@ -210,7 +213,10 @@ To make it work on a variety of hardware architectures.
 <!--ID: 1705739612831-->
 
 What *four* basic types of network software components are implemented in [[Windows]]? #flashcard
-[[Windows]] network services, [[Windows]] network APIs, network protocols and Drivers for network adapters.
+- [[Windows]] network services 
+- [[Windows]] network APIs 
+- network protocols and 
+- Drivers for network adapters.
 <!--ID: 1705739612832-->
 
 What is the definition of [[Portability]]? #flashcard
@@ -218,7 +224,9 @@ What is the definition of [[Portability]]? #flashcard
 <!--ID: 1705739612834-->
 
 What are *three* properties, a modern [[Operating System|OS]] should be? #flashcard
-multi-user, interactive and connected
+- multi-user
+- interactive and 
+- connected
 <!--ID: 1705739612835-->
 
 What does a [[Kernel]] in any [[Operating System|OS]] consist of? #flashcard
@@ -282,7 +290,9 @@ It implements several *dedicated protection mechanisms*.
 <!--ID: 1705739518621-->
 
 What functionality is provided by the [[Graphics Device Interface|windowing and graphics system]]? #flashcard
-Windows and dialogues, User interface controls and Drawing
+- Windows and dialogues
+- User interface controls and 
+- Drawing
 <!--ID: 1705739518622-->
 
 What does the abbreviation *[[Graphics Device Interface|GDI]]* stand for? #flashcard

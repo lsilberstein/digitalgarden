@@ -193,7 +193,9 @@ Three
 <!--ID: 1705843615276-->
 
 Which [[subsystem DLLs|DLLs]] does the [[Client and Server Runtime Subsystem|environment subsystem]] ([[Client and Server Runtime Subsystem|csrss]]) load? #flashcard
-`basesrv.dll`, `winsrv.dll` and `csrsrv.dll`
+- `basesrv.dll`
+- `winsrv.dll` and 
+- `csrsrv.dll`
 <!--ID: 1705843615277-->
 
 What is the *definition* of a [[Session]]? #flashcard 
@@ -230,7 +232,9 @@ False. All other [[Operating System|OS]] components need these functions to oper
 <!--ID: 1705843615285-->
 
 Name a few examples of [[Operating System|OS]] components that use *elementary functions* of the [[Kernel]]. #flashcard
-[[Memory Management]], [[Process management]], Security.
+- [[Memory Management]]
+- [[Process management]]
+- Security.
 <!--ID: 1705843615286-->
 
 What is the specific term behind the abbreviation [[Hardware Abstraction Layer|HAL]]? #flashcard
@@ -250,7 +254,13 @@ True
 <!--ID: 1705843615290-->
 
 Which mechanisms, besides base [[Operating System|OS]] operations does the [[Windows executive]] contain? #flashcard
-[[Memory Management]], [[Process management]], [[Process management|Thread Management]], Security Management, IO, [[Networking]], [[Inter Process Communication]]
+- [[Memory Management]] 
+- [[Process management]]
+- [[Process management|Thread Management]]
+- Security Management
+- IO
+- [[Networking]]
+- [[Inter Process Communication]]
 <!--ID: 1705843615291-->
 
 What is the specific term when the [[Windows executive|Executive]] provides functions that are callable form [[User Application Space|User mode]] as well as [[Kernel Address Space|Kernel Mode]]? #flashcard
@@ -266,7 +276,9 @@ What is the difference between the [[Kernel]] and all of the components residing
 <!--ID: 1705843615294-->
 
 What types of [[Policies]] are there? #flashcard
-criteria, rules and constraints
+- criteria
+- rules and 
+- constraints
 <!--ID: 1705843615295-->
 
 What is a *criteria* in regards to [[Policies]]? #flashcard

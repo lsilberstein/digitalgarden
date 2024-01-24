@@ -4,7 +4,7 @@ description:
 type: Vorlesung
 kurs: Betriebssysteme und Rechnernetze
 vorlesungnr: 5
-tags: [OSNW, wise2324, vorlesung]
+tags: [OSNW, wise2324, vorlesung, flashcard]
 draft: false
 date: 2023-10-16
 ---
@@ -29,7 +29,7 @@ A [[Pages|Page]] can be *committed*, aka private (*dedicated*: not shareable wit
 > [[Virtual Memory address space|VAS]]: [[Virtual Memory address space]] is private and assigned to a [[Process]].
 
 If a [[Thread]] attempts to access free or reserved [[Pages]], an [[Exception]] arises. A [[Thread]] calls an API-function to set aside a *range* of *continuous virtual addresses*, i.e. a region of [[Pages]], consuming negligible system [[Resources]]. What is the size of a [[Pages|Page]]? This is dependent on the [[Operating System|OS]]. The [[Memory Management|MemMan]] commits portions of the reserved space as needed as the [[Process]] executes. Or, if the required space is known in advance, a [[Thread]] can *reserve* and *commit* in the same initial function call.  
-A committed (private) [[Pages|Page]] that is accessed for the first time is created as a *zeroed [[Pages|Page]]*
+A committed (private) [[Pages|Page]] that is accessed for the first time is created as a *zeroed [[Pages|Page]]*.
 
 > [!Definition]  
 > A *zeroed [[Pages|Page]]* is a [[Pages|Page]] that is initialised with zeros, also called *demand-zero*.
@@ -88,6 +88,16 @@ Here [[Sections|Section Object]] $O_j$ is connected to an open file on disk (cal
 
 Use a [[Sections|Section Object]] to map files into a [[Process]] address space. Note that we do not only talk about [[Shared Memory|Shareable Memory]] at this point, but rather the whole process of [[Memory Management]]. The [[Process]] gets access to the [[Sections|Section Object]] instead. This enables reading and writing to [[physical memory]] rather than to the file. What happens when the [[Process]] modifies the [[File-Mapping-Object|Mapped File]]? [[Pages|Paging]] operation. The [[Memory Management|MemMan]] writes the changes back to the [[File-Mapping-Object|Mapped File]] during its normal [[Pages|Paging]] operations.
 
+What does a [[File-Mapping-Object]] allow us to do when it comes to reading and writing to memory? #flashcard
+It enables reading and writing to [[physical memory]] and letting [[Memory Management|MemMan]] implement operations to other storage devices.
+<!--ID: 1706113782336-->
+
+
+What happens when a [[Process]] modifies a [[File-Mapping-Object|Mapped File]]? #flashcard
+[[Memory Management|MemMan]] imposes [[Pages|Paging]] operations.
+<!--ID: 1706113782347-->
+
+
 ![[image_13.png]]
 
 [Sysinternals - Sysinternals | Microsoft Learn](https://learn.microsoft.com/en-gb/sysinternals/)
@@ -115,10 +125,10 @@ When [[physical memory]] runs low, the [[Working Set Manager]], initiates automa
 
 ![[image_1m.png]]
 
-In order to manage [[Pages]], [[Memory Management|MemMan]] created *two dynamically sized* memory pools at system initialization, aka *[[Kernel Heaps|Heaps]]*, *[[Kernel Heaps|system memory]]* or *[[Kernel Heaps|memory pools]]*. Both [[Kernel Heaps|memory pools]] are located in [[Kernel Address Space|KAS]]. Most [[Windows executive|Executive Layer]] components use these [[Kernel Heaps|memory pools]] to allocate required memory. Besides, memory assignment to [[Virtual Memory address space|Virtual Memory]] of every [[Process]] comes from these [[Kernel Heaps|memory pools]]. 
+In order to manage [[Pages]], [[Memory Management|MemMan]] created *two dynamically sized* memory pools at system initialisation, aka *[[Kernel Heaps|Heaps]]*, *[[Kernel Heaps|system memory]]* or *[[Kernel Heaps|memory pools]]*. Both [[Kernel Heaps|memory pools]] are located in [[Kernel Address Space|KAS]]. Most [[Windows executive|Executive Layer]] components use these [[Kernel Heaps|memory pools]] to allocate required memory. Besides, memory assignment to [[Virtual Memory address space|Virtual Memory]] of every [[Process]] comes from these [[Kernel Heaps|memory pools]]. 
 
-The *non-paged pool* is dedicated to the system ([[Operating System|OS]]). It consists of ranges of system *virtual addresses*. They are guaranteed to reside in [[physical memory]] at all times and to be accessed at any time without incurring a [[Page Fault Exception|Page Fault Exception]]. This is mainly useful for IO tasks. There is the possibility to access this [[Kernel Heaps|memory pool]] via certain API functions. This is sometimes useful when having to use code at all times (for example when using an anitvirus-program).  
-The *paged pool* is a region of [[Virtual Memory address space|Virtual Memory]] is system space that can be paged into and out of the system. [[Memory Management|MemMan]] provides routines to allocate and deallocate from this paged pool.  
+The *non-paged pool* is dedicated to the system ([[Operating System|OS]]). It consists of ranges of system *virtual addresses*. They are guaranteed to reside in [[physical memory]] at all times and to be accessed at any time without incurring a [[Page Fault Exception|Page Fault Exception]]. This is mainly useful for IO tasks. There is the possibility to access this [[Kernel Heaps|memory pool]] via certain API functions. This is sometimes useful when having to use code at all times (for example when using antivirus-program).  
+The *paged pool* is a region of [[Virtual Memory address space|Virtual Memory]]. Its system space that can be paged into and out of the system. [[Memory Management|MemMan]] provides routines to allocate and deallocate from this paged pool.  
 Per default, the [[Operating System|OS]] starts with four pages pools and one non-paged pool. [[Memory Management]] can create more [[Kernel Heaps|memory pools]] up to a maximum of 64. [[Windows]] dynamically chooses the maximum size of the [[Kernel Heaps|memory pools]] and allows a given pool to grow from its initial size to the maximum.
 
 | Pool Type | Maximum of 32-Bit Systems | Maximum on 64-Bit Systems |
@@ -153,4 +163,303 @@ Creating a [[Process Object]] does not mean that the execution of [[Thread|Threa
 
 # Anki
 
-#todo
+What *four* main stages of [[Pages]] exist? #flashcard 
+- free
+- reserved
+- committed (or private)
+- shareable
+<!--ID: 1706104048265-->
+
+Is a *free* [[Pages|Page]] attached to a [[Process]]? #flashcard
+No
+<!--ID: 1706113782351-->
+
+
+How does [[Memory Management|MemMan]] maintain a list of free [[Pages]]? #flashcard
+It flags *free* [[Pages]]
+<!--ID: 1706113782354-->
+
+
+What does it mean, when a free [[Pages|Page]] is *dirty*? #flashcard
+We don't know the contents of this *dirty* [[Pages|Page]].
+<!--ID: 1706113782358-->
+
+
+Why would [[Memory Management|MemMan]] *reserve* a [[Pages|Page]]? #flashcard
+Reserving a [[Pages|Page]] for future use.
+<!--ID: 1706113782361-->
+
+
+*Committed* [[Pages]] can be shared with other [[Process|Processes]]. (True or False) #flashcard
+False. Committed [[Pages]] are *private*.
+<!--ID: 1706113782366-->
+
+
+What is [[Memory Management|MemMan]]'s responsibility for a *committed* or *shareable* [[Pages|Page]]? #flashcard
+It induces [[Memory Management|MemMan]] to translate a [[Pages]] [[Virtual Memory address space|Virtual Memory]] address to a valid [[Frames|PF]] in [[physical memory]].
+<!--ID: 1706113782369-->
+
+
+When should *shareable* [[Pages]] **only** be used? #flashcard
+For *read-only* memory.
+<!--ID: 1706113782373-->
+
+
+What is an adequate example for *shareable* Memory? #flashcard
+When sharing for example [[subsystem DLLs|DLL]] code.
+<!--ID: 1706113782376-->
+
+
+What is the default stages a [[Pages|Page]] transitions through? #flashcard
+![[image_9.png]]
+<!--ID: 1706113782379-->
+
+
+What happens when a [[Thread]] attempts to access *free* or *reserved* [[Pages]]? #flashcard
+An [[Exception]] arises.
+<!--ID: 1706113782383-->
+
+
+How are [[Virtual Memory address space]]s assigned to a [[Thread]]? #flashcard
+By the [[Thread]] calling an API-function to set aside a *range of continuous virtual addresses*.
+<!--ID: 1706113782386-->
+
+
+What is a *region of [[Pages]]* also called? #flashcard
+A *range of continuous virtual addresses*.
+<!--ID: 1706113782390-->
+
+
+[[Memory Management|MemMan]] *commits* **all** reserved memory for a single [[Process]] during its initialisation. (True or False) #flashcard
+False. [[Memory Management|MemMan]] commits portions of the reserved space as needed as the [[Process]] executes.
+<!--ID: 1706113782393-->
+
+
+What is the *definition* of a *zeroed [[Pages|Page]]*? #flashcard
+A zeroed [[Pages|Page]] is a [[Pages|Page]] that is initialised with zeros, also called *demand-zero*.
+<!--ID: 1706113782396-->
+
+
+What happens when a committed (private) [[Pages|Page]] is accessed for the first time? #flashcard
+That [[Pages|Page]] will be created as a *zeroed [[Pages|Page]]*.
+<!--ID: 1706113782400-->
+
+
+What types of private [[Resources]] are stores in a corresponding [[Frames|PF]] of a [[Process]] in [[physical memory]]? #flashcard 
+- data
+- code
+<!--ID: 1706113782403-->
+
+
+As what types of memory are *shareable* and *unmodified data [[Pages]]* mapped? #flashcard
+As execute-only (or *read-only*) memory
+<!--ID: 1706113782407-->
+
+
+When is a [[Pages|Page]] *in standby*? #flashcard
+When a [[Pages|Page]] has been used by a [[Process]] but later has been removed from the VM of that [[Process]].
+<!--ID: 1706113782410-->
+
+
+Why might the *Standby* status be useful, when it comes to [[Thread|Threads]]? #flashcard
+*Standby* prevents [[Thread|Threads]] having to reserve and commit [[Pages]] very early on an then not using them for a long time. 
+<!--ID: 1706113782413-->
+
+
+What might be some additional status for a [[Pages|Page]] (besides free, reserved, committed and shareable)? #flashcard 
+- unused
+- valid
+- dirty
+- inactive
+<!--ID: 1706113782417-->
+
+
+Is [[Virtual Memory address space|Private Virtual Memory]] shareable with other [[Process|Processes]]? #flashcard
+No
+<!--ID: 1706113782420-->
+
+
+What are some terms for [[Virtual Memory address space|Private Virtual Memory]] [[Pages]]? #flashcard 
+- private memory
+- private pages
+- private bytes
+<!--ID: 1706113782424-->
+
+
+Which [[Policies|Policy]] bounds the value of how many pages can be committed to a single [[Process]]? #flashcard
+The [[Operating System|OS]]'s *commit limit*
+<!--ID: 1706113782427-->
+
+
+What is the *definition* of a [[Page File]] or [[Page File|Paging File]]? #flashcard
+A [[Page File]] (or [[Page File|Paging File]]) is a hidden system file on a hard disk. which enables the [[Memory Management|MemMan]] to remove infrequently accessed [[Pages]] from [[physical memory]] ([[Pages|Paging]]).
+<!--ID: 1706113782431-->
+
+
+What are [[Sections]] (or [[Sections|Section Objects]]) used for? #flashcard
+They are used to realize [[Shared Memory|Shared Memory]].
+<!--ID: 1706113782434-->
+
+
+A [[Sections|Section Object]] can only be opened by **one** [[Process]] at a time. (True or False) #flashcard
+False. A [[Sections|Section Object]] can be opened by one or many [[Process|Processes]].
+<!--ID: 1706113782437-->
+
+
+Which component deploys the notion of [[Sections|Section Objects]]? #flashcard
+[[Memory Management|Memory Manager]]
+<!--ID: 1706113782441-->
+
+
+A [[Sections|Section Object]] **always** refers to [[Shared Memory]]. (True or False) #flashcard
+False, since a [[Sections|Section Object]] can also be opened by only one [[Process]].
+<!--ID: 1706113782444-->
+
+
+How is a [[Sections|Section Object]] used to implement [[Shared Memory|Shared Memory]]? #flashcard
+A [[Sections|Section Object]] surrogates the linear base address of a [[Frames|Page Frame]]. 
+<!--ID: 1706113782447-->
+
+
+It is possible for a [[Process]] to refer to more than one [[Sections|Section Object]]. (True or False) #flashcard
+True.
+<!--ID: 1706113782451-->
+
+
+To what kinds of *Files* can a [[Sections|Section Object]] refer to? #flashcard 
+- A [[Page File]]
+- some other kind of file, such as pictures
+<!--ID: 1706113782454-->
+
+
+What types of [[Sections|Section Objects]] are shown here? ![[image_3.png]] #flashcard 
+- $O_j$ is a [[Sections|file-backed Section Object]]
+- $O_i$ is a [[Sections|page-file-backed Section Object]]
+<!--ID: 1706113782459-->
+
+
+What is a *view* in the context of [[Shared Pages]]? #flashcard
+A *view* is a selected part of a [[File-Mapping-Object|Mapped File]].
+<!--ID: 1706113782462-->
+
+
+To which destination do [[Shared Pages]] usually map? #flashcard
+To a *view of a [[Sections|Section Object]]*
+<!--ID: 1706113782466-->
+
+
+What happens when a [[Shared Pages|Shared Page]] is firstly accessed by a [[Process]]? #flashcard
+It will read from the associated [[File-Mapping-Object|Mapped File]].
+<!--ID: 1706113782469-->
+
+
+What happens when the content of a [[Shared Pages|Shared Page]] is already in [[physical memory]] because of some other [[Process]]? #flashcard
+The next [[Process]] will use the same [[Pages|Page]] content that is already in [[physical memory]].
+<!--ID: 1706113782472-->
+
+
+What is the definition of a [[Working Set]]? #flashcard
+The set of [[Pages]] in [[Virtual Memory address space|Virtual Memory Address Space]] of a [[Process]] that is currently resident in [[physical memory]] is called a [[Working Set]] of a [[Process]].
+<!--ID: 1706113782476-->
+
+
+What are the default minimum and maximum [[Working Set]] sizes? #flashcard
+50 min and 345 max
+<!--ID: 1706113782479-->
+
+
+What does the *abbreviation* [[Working Set|WS]] mean? #flashcard
+[[Working Set]]
+<!--ID: 1706113782482-->
+
+
+When is the [[Working Set]] size of a [[Process]] determined? #flashcard
+When that [[Process]] is created.
+<!--ID: 1706113782486-->
+
+
+What are the *two* tasks of the [[Working Set Manager]]? #flashcard 
+1. Initiate [[Working Set|WS]] trimming when [[physical memory]] runs low
+2. calculate how many [[Pages]] could be removed from [[Working Set|Working Sets]] if necessary when there is enough memory
+<!--ID: 1706113782489-->
+
+
+What are *three* other terms for [[Kernel Heaps]]? #flashcard 
+- [[Kernel Heaps|Heaps]]
+- [[Kernel Heaps|system memory]]
+- [[Kernel Heaps|memory pool]]
+<!--ID: 1706113782492-->
+
+
+How many, and which *dynamically sized* memory pools are created by [[Memory Management|MemMan]] at system initialization? #flashcard
+Two, a *non-paged pool* and a *paged pool*.
+<!--ID: 1706113782495-->
+
+
+Where do [[Kernel Heaps]] exist? #flashcard
+in [[Kernel Address Space|KAS]].
+<!--ID: 1706113782498-->
+
+
+Do [[Windows executive|Executive Layer]] components use [[Kernel Heaps]]? #flashcard
+Yes. To allocate required memory.
+<!--ID: 1706113782501-->
+
+
+To what types of [[Process|Processes]] is the *non-paged pool* dedicated? #flashcard
+It is dedicated to system ([[Operating System|OS]]) [[Process|Processes]].
+<!--ID: 1706113782505-->
+
+
+Why is the *non-paged [[Kernel Heaps|memory pool]]* guaranteed to reside in [[physical memory]] at all times? And why might that be useful? #flashcard
+To not incur any [[Page Fault Exception|Page Fault Exception]]. This is mainly useful for *IO tasks*.
+<!--ID: 1706113782508-->
+
+
+What is the *paged [[Kernel Heaps|memory pool]]*? #flashcard
+It's a region of [[Virtual Memory address space|Virtual Memory]] that can be paged into and out of the system.
+<!--ID: 1706113782511-->
+
+
+What are the default amount of [[Kernel Heaps|memory pools]] at system startup? #flashcard 
+- four paged pools
+- one non-paged pool
+<!--ID: 1706113782515-->
+
+
+What is the maximum [[Kernel Heaps|memory pools]] that [[Memory Management|MemMan]] can create? #flashcard 
+
+What *two* types of [[Pages|Page]] sizes exist? #flashcard 
+- small
+- large
+<!--ID: 1706113782518-->
+
+
+What are drawbacks of [[Pages]] that are too large or too small? #flashcard
+If a [[Pages|Page]] is too large, memory might not get used. If a [[Pages|Page]] is too small you might need multiple pages which can have an impact on performance. Therefore, a balance between these two aspects is important. 
+<!--ID: 1706113782521-->
+
+
+What is the actual term for the *abbreviation* [[Image Loader|Ldr]]? #flashcard
+[[Image Loader]] or [[Image Loader|Loading]]
+<!--ID: 1706113782524-->
+
+
+What is the *definition* for [[Image Loader]]? #flashcard
+The [[Image Loader]] is a mechanism that loads an *image file* to create a [[Process Object]] from it. 
+<!--ID: 1706113782528-->
+
+
+Which system call interface realises the [[Image Loader]] mechanism? #flashcard
+[[Ntdll]]
+<!--ID: 1706113782531-->
+
+
+The [[Image Loader]] mechanism is not only for user [[Process|Processes]], but also the [[Process|Processes]] in [[Kernel Address Space|KAS]]. (True or False) #flashcard
+True. Components in [[Kernel Address Space|KAS]] are based on [[Process|Processes]] and thus use the [[Image Loader|Ldr]] as well.
+<!--ID: 1706113782534-->
+
+
+What does the term [[Object]] refer to in [[Windows]]? #flashcard
+The *representation* of a [[Resources|resource]].
+<!--ID: 1706113782538-->
