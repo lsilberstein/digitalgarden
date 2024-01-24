@@ -11,6 +11,8 @@ date:
 aliases:
   - Virtual Memory
   - Virtual Memory Address Space
+  - VAS
+  - Private Virtual Memory
 linter-yaml-title-alias: Virtual Memory Address Space
 ---
 
@@ -57,3 +59,10 @@ The x86-64 architecture allows a 64-bit address bus (yet only on paper). $2^{64}
 1. A crucial collateral effect of [[Pages|Paging]] and [[Segment|Segmentation]] is *protection of memory*. Using pure, flat addressing needs efficient and cost-effective new protection mechanisms for both [[Central Processing Unit|CPU]] and [[Operating System|OS]].
 2. Power consumption and heat dissipation: As of right now, there is no solution to the relatively enormous power consumption of computers, and the expected vast amount of heat during performing operations. Overheated systems mean shorter maximum life-spans.
 3. Money, money, money: a 64-bit address bus would enable the [[Windows architecture]] to implement a flat memory model without [[Pages|Paging]]], meaning a flat 64-bit [[Linear Address Space]]. That much memory is technically not feasible and way too costly. There is simply no point in implementing a full 64-bit address space now. We cannot build a system that could utilize such an address space in full, and motherboards have their own limits on how much [[physical memory]] they can support.
+
+# Private Virtual Memory
+
+![[image_1m.png]]
+
+[[Virtual Memory address space|Private Virtual Memory]] cannot be shared with other [[Process|Processes]]. They are committed [[Pages|Pages]] or also called *private memory*, *private pages* or *private bytes*. The [[Operating System|OS]]'s *commit limit* (this is a [[Policies|Policy]] by the way) bounds the value of how many pages can be committed to a single [[Process]].  
+There can be free private process memory. Not all regions in the private address space of a [[Process]] are allocated (*used*). 

@@ -7,7 +7,10 @@ vorlesungnr: 0
 tags:
   - OSNW
 draft: false
-date:
+date: 
+aliases:
+  - Shared Memory
+  - Shareable Memory
 ---
 # Shared Memory
 

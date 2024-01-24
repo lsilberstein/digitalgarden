@@ -13,6 +13,7 @@ aliases:
   - Frames
   - Page Frame
   - Page Frames
+  - PF
 ---
 # Frames
 
