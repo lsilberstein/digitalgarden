@@ -24,7 +24,8 @@ Betriebssysteme
 - [[Eigenschaften eines OS, Processes, Kernel, Threads|Eigenschaften Eines OS, Processes, Kernel, Threads]] (25.09.2023)
 - [[Key System Components and Policies]] (02.10.2023)
 - [[Windows Memory Management 1]] (09.10.2023)
-- [[Windows Memory Management 2, Loading, Linking]] (16.01.2023)
+- [[Windows Memory Management 2, Loading, Linking]] (16.10.2023)
+- [[Loader and Linking, Process and Thread Management]] (23.10.2023)
 
 Networking, Rechnernetze
 ## Anki

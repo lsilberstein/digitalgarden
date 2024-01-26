@@ -10,5 +10,6 @@ draft: false
 date: 
 aliases:
   - Thread Management
+  - Process Manager
 ---
 # Process Management
