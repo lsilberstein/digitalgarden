@@ -1,18 +1,15 @@
 ---
-title: Betriebssysteme Und Rechnernetze
+title: Betriebssysteme und Rechnernetze
 description: 'Dashboard für den Kurs "Betriebssyteme und Rechnernetze".'
 type: public dashboard
 kurs: Betriebssysteme und Rechnernetze
 vorlesungnr: 
-aliases:
-  - Betriebssysteme Und Rechnernetze
 tags: [publicDashboard, sose24, OSNW]
 draft: false
 date: 2024-01-17
-linter-yaml-title-alias: Betriebssysteme Und Rechnernetze
 ---
 
-# Betriebssysteme und Rechnernetze
+# Betriebssysteme Und Rechnernetze
 
 Hier werden allgemeine Informationen, als auch Links zu allen Vorlesungsmitschriften für den Kurs *Betriebssysteme und Rechnernetze* ( #OSNW ) veröffentlicht. 
 
@@ -26,6 +23,7 @@ Betriebssysteme
 - [[Windows Memory Management 1]] (09.10.2023)
 - [[Windows Memory Management 2, Loading, Linking]] (16.10.2023)
 - [[Loader and Linking, Process and Thread Management]] (23.10.2023)
+- [[Registry, Object Management]] (30.10.2023)
 
 Networking, Rechnernetze
 ## Anki

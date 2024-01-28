@@ -22,7 +22,7 @@ Any application consists of one or more [[Process|processes]].
 A *[[Process]] is a container* for a set of [[Resources]] used when executing the instance of the program. In this case [[Resources]] mean
 
 - private [[Virtual Memory address space|Virtual Memory Address Space]]
-- A list of open handles (pointers) to various system [[Resources]]
+- A list of open [[Handle|Handles]] (pointers) to various system [[Resources]]
 - An access token to identify users, security groups, privileged, etc.
 - A unique identifier, call a *process ID*
 - A least one [[Thread]] of execution
