@@ -4,10 +4,7 @@ description:
 type: Vorlesung
 kurs: Betriebssysteme und Rechnernetze
 vorlesungnr: 7
-tags:
-  - vorlesung
-  - wise2324
-  - OSNW
+tags: [vorlesung, wise2324, OSNW, flashcard]
 draft: false
 date: 2023-10-30
 ---
@@ -26,7 +23,7 @@ The [[Kernel]] and user [[Process|Processes]] use the *[[Windows Registry|Regist
 The [[Windows Registry|Registry]]'s tree structure is similar to that of a disk volume. *Keys* are similar to a disks' directory, *values* are comparable with files on a disk, while a *key* is a container that can consist of other keys and values.
 
 ![[Pasted image 20231030075931.png]]
-
+ 
 ## Root Keys
 
 There are six *root keys*, and you cannot add new *root keys* or delete existing ones.
@@ -53,7 +50,7 @@ Under Current users, we find information, such as:
 
 ## Persisting Registry Entries ([[Registry Hive]])
 
-The [[Windows Registry|Registry]] utilises a set of supporting files containing backups of its data. *On disks*, these backups are called [[Registry Hive|Hives]]. 
+The [[Windows Registry|Registry]] utilizes a set of supporting files containing backups of its data. *On disks*, these backups are called [[Registry Hive|Hives]]. 
 
 ![[Pasted image 20231030081338.png]]
 
@@ -140,9 +137,130 @@ We distinguish between *three* types of [[Windows]] [[Object]]s:
 > [!Definition]  
 > A [[Kernel Object]] is a data structure containing specific files.
 
-The internal structure of an [[Kernel Object]] is opaque in contrast to an ordinary data structure. A [[Thread]] cannot directly read or change data inside an [[Object]]. To access a [[Kernel Object]], a [[Thread]] calls an *object [[OS service|Service]]*:
+The internal structure of an [[Kernel Object]] is opaque, in contrast to an ordinary data structure. A [[Thread]] cannot directly read or change data inside an [[Object]]. To access a [[Kernel Object]], a [[Thread]] calls an *object [[OS service|Service]]*:
 
 - to read data from it
 - to put data into it
 
-Each [[Kernel Object]] has its own create, open and query [[OS service|Services]]. No direct access means: Object implementation can be changed easily over time.
+Each [[Kernel Object]] has its own creation, open and query [[OS service|Services]]. No direct access means: Object implementation can be changed easily over time.
+
+# Anki
+
+What interface do the [[Kernel]] and [[Process|Processes]] use to retrieve, modify or delete [[Windows Registry|Registry]] data? #flashcard
+The [[Windows Registry|Registry]] API
+<!--ID: 1706471468341-->
+
+
+The data stored in the [[Windows Registry|Registry]] is equal in each version of [[Windows]]. (True or False) #flashcard
+False
+<!--ID: 1706471468343-->
+
+
+What is the equivalent to *keys* in the [[Windows Registry|Registry]] in a filesystem? #flashcard
+*Keys* are similar to a directory
+<!--ID: 1706471468344-->
+
+
+What is the equivalent to *values* in the [[Windows Registry|Registry]] in a filesystem? #flashcard
+Files
+<!--ID: 1706471468345-->
+
+
+Which *six* Root Keys are there in the [[Windows Registry|Registry]]? #flashcard 
+- `HKCU`
+- `HKU`
+- `HKCR`
+- `HKLM`
+- `HKPD`
+- `HKCC`
+<!--ID: 1706471468346-->
+
+
+What is the *definition* of a [[Registry Hive]]? #flashcard
+Conceptually, a [[Registry Hive|Hive]] is a logical group of keys, subkeys and values on the [[Windows Registry|Registry]].
+<!--ID: 1706471468347-->
+
+
+What is the *usage* of a [[Registry Hive]]? #flashcard
+The [[Windows Registry|Registry]] utilizes a set of [[Registry Hive|Hives]] containing *backups* of its data on disks.
+<!--ID: 1706471468348-->
+
+
+What is a *volatile [[Registry Hive|Hive]]*? #flashcard
+A *volatile* [[Registry Hive|Hive]] is only maintained in memory. Changes to that [[Registry Hive|Hive]] will afterwards be lost.
+<!--ID: 1706471468349-->
+
+
+What is the *usage* for the SYSTEM [[Registry Hive]]? #flashcard
+[[Windows]] reads from the SYSTEM [[Registry Hive]] in order to determine which [[Device Drivers]] are needed to be loaded to accomplish booting.
+<!--ID: 1706471468351-->
+
+
+What is the *definition* of the [[Configuration Manager]]? #flashcard
+The [[Configuration Manager]] is responsible for implementing and managing the [[Windows Registry|Registry]].
+<!--ID: 1706471468352-->
+
+
+What does the *abbreviation* [[Configuration Manager|CM]] mean? #flashcard
+[[Configuration Manager]]
+<!--ID: 1706471468353-->
+
+
+How does the view of a [[Registry Hive|Hive]] look like for the [[Configuration Manager]]? #flashcard
+The [[Configuration Manager]] divides a [[Registry Hive|Hive]] into allocation units, called *blocks*.
+<!--ID: 1706471468354-->
+
+
+Where does [[Configuration Manager]] reside? #flashcard
+[[Windows executive|Executive Layer]]
+<!--ID: 1706471468355-->
+
+
+When are callback functions, registered in [[Configuration Manager]], being called? #flashcard
+Any time a certain key is being accessed.
+<!--ID: 1706471468356-->
+
+
+What is the *task* of the [[Object Manager]]? #flashcard 
+1. creating
+2. deleting
+3. protecting
+4. tracking of [[Object]]s
+<!--ID: 1706471468357-->
+
+
+What does the *abbreviation* [[Object Management|OM]] mean? #flashcard
+[[Object Manager]]
+<!--ID: 1706471468358-->
+
+
+The [[Object Management|Object Manager]] provides a common, uniform mechanism for using system [[Resources]]. (True or False) #flashcard
+True
+<!--ID: 1706471468359-->
+
+
+Which *three* types of [[Object Types]] are there? #flashcard 
+- [[Kernel Object|Kernel Objects]]
+- [[Windows]] Objects
+- Other [[Object Types]], such as [[Semaphores]] and [[Mutexes]]
+<!--ID: 1706471468360-->
+
+
+What is the *definition* of a [[Handle]]? #flashcard
+A [[Handle]] is some opaque value that has a meaning only to the API which produced it (Mainly some pointer).
+<!--ID: 1706471468361-->
+
+
+What is the *definition* on a [[Kernel Object]]? #flashcard
+A [[Kernel Object]] is a data structure containing specific files.
+<!--ID: 1706471468362-->
+
+
+Any [[Thread]] can directly access any[[Kernel Object]]. (True or False) #flashcard
+False. To access a [[Kernel Object]], a [[Thread]] calls an *object [[OS service|Service]]*.
+<!--ID: 1706471468363-->
+
+
+Why might no direct access to [[Kernel Object|Kernel Objects]] be useful? #flashcard
+Object implementation can be changed easily over time.
+<!--ID: 1706471468364-->

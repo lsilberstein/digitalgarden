@@ -1,5 +1,5 @@
 ---
-title: IPv4 protocol
+title: File Transfer Protocol
 description: 
 type: definition
 kurs: 
@@ -9,8 +9,6 @@ tags:
 draft: false
 date: 
 aliases:
-  - IPv4
-  - Internet Protocol
-  - IP Protocol
+  - FTP
 ---
-# IPv4 Protocol
+# File Transfer Protocol

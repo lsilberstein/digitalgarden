@@ -1,5 +1,5 @@
 ---
-title: IPv4 protocol
+title: Wide Area Networks
 description: 
 type: definition
 kurs: 
@@ -9,8 +9,6 @@ tags:
 draft: false
 date: 
 aliases:
-  - IPv4
-  - Internet Protocol
-  - IP Protocol
+  - WAN
 ---
-# IPv4 Protocol
+# Wide Area Networks

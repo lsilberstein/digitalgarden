@@ -1,5 +1,5 @@
 ---
-title: IPv4 protocol
+title: Packets
 description: 
 type: definition
 kurs: 
@@ -9,8 +9,8 @@ tags:
 draft: false
 date: 
 aliases:
-  - IPv4
-  - Internet Protocol
-  - IP Protocol
+  - packet
 ---
-# IPv4 Protocol
+# Packets
+
+structured bytes

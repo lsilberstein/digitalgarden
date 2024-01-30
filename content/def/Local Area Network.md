@@ -1,5 +1,5 @@
 ---
-title: IPv4 protocol
+title: Local Area Network
 description: 
 type: definition
 kurs: 
@@ -9,8 +9,6 @@ tags:
 draft: false
 date: 
 aliases:
-  - IPv4
-  - Internet Protocol
-  - IP Protocol
+  - LAN
 ---
-# IPv4 Protocol
+# Local Area Network
