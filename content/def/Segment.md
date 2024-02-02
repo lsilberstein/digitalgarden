@@ -37,3 +37,9 @@ When you want to access a byte in [[Linear Address Space]] you need a [[Segment]
 ![[Pasted image 20231022172931.png]]
 
 [[Segment]] descriptors provide the base address of [[Segment|segments]] as well as access rights, type and usage information. It gives the processor the *base address* of the [[Segment]] in [[Linear Address Space]].
+
+# TCP
+
+>[!Definition]
+>A [[Segment]] carries a header along with data.
+

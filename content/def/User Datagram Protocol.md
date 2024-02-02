@@ -1,5 +1,5 @@
 ---
-title: IPv4 protocol
+title: User Datagram Protocol
 description: 
 type: definition
 kurs: 
@@ -9,9 +9,6 @@ tags:
 draft: false
 date: 
 aliases:
-  - IPv4
-  - Internet Protocol
-  - IP Protocol
-  - IP
+  - UDP
 ---
-# IPv4 Protocol
+# User Datagram Protocol

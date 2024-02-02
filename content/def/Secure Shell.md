@@ -1,5 +1,5 @@
 ---
-title: IPv4 protocol
+title: Secure Shell
 description: 
 type: definition
 kurs: 
@@ -9,9 +9,6 @@ tags:
 draft: false
 date: 
 aliases:
-  - IPv4
-  - Internet Protocol
-  - IP Protocol
-  - IP
+  - SSH
 ---
-# IPv4 Protocol
+# Secure Shell

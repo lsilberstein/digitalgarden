@@ -1,5 +1,5 @@
 ---
-title: IPv4 protocol
+title: Untitled
 description: 
 type: definition
 kurs: 
@@ -9,9 +9,6 @@ tags:
 draft: false
 date: 
 aliases:
-  - IPv4
-  - Internet Protocol
-  - IP Protocol
-  - IP
+  - SNMP
 ---
-# IPv4 Protocol
+# Untitled

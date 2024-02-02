@@ -1,12 +1,14 @@
 ---
-title: Betriebssysteme und Rechnernetze
+title: Betriebssysteme Und Rechnernetze
 description: 'Dashboard für den Kurs "Betriebssyteme und Rechnernetze".'
 type: public dashboard
 kurs: Betriebssysteme und Rechnernetze
 vorlesungnr: 
+aliases: [Betriebssysteme Und Rechnernetze]
 tags: [publicDashboard, sose24, OSNW]
 draft: false
 date: 2024-01-17
+linter-yaml-title-alias: Betriebssysteme Und Rechnernetze
 ---
 
 # Betriebssysteme Und Rechnernetze
@@ -26,6 +28,10 @@ Betriebssysteme
 - [[Registry, Object Management]] (30.10.2023)
 
 Networking, Rechnernetze
+
+- [[TCPIP and OSI]] (30.10.2023)
+- [[TCP in Detail]] (6.11.2023)
+
 ## Anki
 
 Ein Anki-Deck kann [hier](https://mega.nz/file/uYkRlYBY#-Yyuasv-GNAbN78JSBugNQnwuNr3T8mGi2BeGYQZA5k) gefunden werden. Dieses ist Stand 20.01.2024 noch in Arbeit.

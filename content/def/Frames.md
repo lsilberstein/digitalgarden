@@ -17,5 +17,9 @@ aliases:
 ---
 # Frames
 
+## OS
+
 > [!Definition]  
 > A Frame, or Page Frame, is a fixed-size block in [[physical memory]], which size may be between $2^9 = 512$ bytes and $2^{13}=8192$ bytes. 
+
+## [[Physical Layer]]

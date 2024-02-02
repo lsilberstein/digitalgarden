@@ -31,3 +31,13 @@ David Chappell was involved in the development of the [[OSI reference model]].
 ## Layers from [[TCPIP protocol stack|TCPIP]]'s Perspective
 
 ![[Pasted image 20231030105217.png]]
+
+![[Pasted-image-20231106075223.png]]
+
+[[TCPIP protocol stack|TCPIP]] is synonymous with the [[Transport Layer]] and [[Network Layer]]. Each layer adds its own header (metadata). Usually added to the beginning, or also called *header*.
+
+![[Pasted-image-20231106184817.png]]
+
+## The Working Layer Model
+
+![[Pasted-image-20231106185353.png]]
