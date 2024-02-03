@@ -15,6 +15,8 @@ aliases:
 ---
 # Segment
 
+# OS
+
 > [!Definition]  
 > A [[Segment]] is a region inside [[physical memory]]. We can define "Segments" in order to separate Code and Data.
 > 
