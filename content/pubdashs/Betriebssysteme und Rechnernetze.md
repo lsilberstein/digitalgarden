@@ -35,5 +35,5 @@ Networking, Rechnernetze
 
 ## Anki
 
-Ein Anki-Deck kann [hier](https://mega.nz/file/uYkRlYBY#-Yyuasv-GNAbN78JSBugNQnwuNr3T8mGi2BeGYQZA5k) gefunden werden. Dieses ist Stand 20.01.2024 noch in Arbeit.
+Ein Anki-Deck kann [hier](https://mega.nz/file/Wc0lXZDS#9Ed8chYJ-nFbx5QOs-Hs8TqQ00RyVRuz5fB-HyifHtc) gefunden werden. Dieses ist Stand 20.01.2024 noch in Arbeit.
 

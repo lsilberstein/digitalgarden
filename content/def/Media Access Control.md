@@ -14,4 +14,4 @@ aliases:
 
 # Media Access Control
 
-[[Media Access Control]] synchronises access (from different hardware sources) to the same physical network interface.It ensures an error-free delivery to both [[Physical Layer|L1]] [[Protocol|Protocols]] and [[Logical Link Control|LLC]].
+[[Media Access Control]] synchronises access (from different hardware sources) to the same physical network interface. It ensures an error-free delivery to both [[Physical Layer|L1]] [[Protocol|Protocols]] and [[Logical Link Control|LLC]].

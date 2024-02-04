@@ -15,4 +15,4 @@ aliases:
 # IP Address
 
 > [!Definiton]  
-> A [[IP Address]] identifies a specific host on a network.
+> A [[IP Address]] identifies a specific host on a [[Networking|Network]].

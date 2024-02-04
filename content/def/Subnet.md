@@ -15,7 +15,7 @@ aliases:
 
 # Subnet
 
-Each [[Subnet]] is bounded by an [[IP protocol|IP]] [[Router]] and assigned a new [[Networking|Network]] ID, which is a [[Subnet]] of the original network address.
+An [[IP protocol|IP]] network can be subdivided into smaller [[Networking|Networks]], also called *[[Subnet|Subnets]]*. Each [[Subnet]] is bounded by an [[IP protocol|IP]] [[Router]] and assigned a new [[Networking|Network]] ID, which is a [[Subnet]] of the original network address.
 
 ## Why Use [[Subnet|Subnets]]?
 
