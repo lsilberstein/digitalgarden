@@ -219,26 +219,26 @@ There are four reasons for using [[Subnet|Subnets]]:
 
 Lets assume we use the following [[IP Address]] for a certain system.
 
-```
+```txt
 01101000 00010000 00101101 01100011 104.016.045.099
 ```
 
 We must find a way to know which part is used as the network address. The remaining part is the host address. Thats why we define a 32-bit number, called a *[[Subnet]] mask*. All bits that belong to the network address are turned *on*, meaning they are set to $1$.
 
-```
+```txt
 11111111 11111111 11110000 00000000 255.255.240.000
 ```
 
 The rest goes to the *host address in the [[Subnet]]* and turned off (set to `0`). See here an example for a *[[Subnet]] mask*.
 
-```
+```txt
 01101000 00010000 00101101 01100011 104.016.045.099
 11111111 11111111 11110000 00000000 255.255.240.000
 ```
 
 The interpretation of the [[IP Address]] by means of the *[[Subnet]] Mask* with 20 *mask bits* and 12 *subnet bits*.
 
-```
+```txt
 01101000 00010000 00100000 000000000 104.016.032.000 network
 ```
 
@@ -252,7 +252,7 @@ to   01101000 00010000 00101111 11111111 104.16.47.255
 However, the last binary addresses with a host portion of all `1` cannot be used for a host address, since it is reserved for a special purpose: *broadcasting* [[Packets]] to every host on a [[Networking|Network]].  
 Thus, the first and last address in any [[Subnet]] cannot be assigned to any individual host. Available addresses would be:
 
-```
+```txt
 from 104.16.32.1
 to   104.16.47.254
 ```
