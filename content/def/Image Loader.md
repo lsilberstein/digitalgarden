@@ -20,7 +20,7 @@ aliases:
 
 This mechanism is not only for user [[Process|Processes]], but also the [[Process|Processes]] in [[Kernel Address Space|KAS]]. The system call interface, realised by [[Ntdll|ntdll]] provides the [[Image Loader]] mechanism. Components in [[Kernel Address Space|KAS]] are based on [[Process|Processes]] and thus use the [[Image Loader|Ldr]] as well. [[Ntdll]] is loaded. This ensures that [[Image Loader|Ldr]] is always in [[physical memory]]. To start a [[Process]], the [[Operating System|OS]] employs the [[Image Loader|Ldr]] to create a specific *[[Process Object]]* for it. Indeed this [[Process Object]] is the representation in the [[Process]] container in [[physical memory]].
 
-A [[Process Object]] cannot be executed. Rather, the [[Thread|Threads]] which are part of that [[Process]] are being executed. Within an image file, there is an array of data structures, one per imported [[subsystem DLLs|DLL]]. The [[Import Address Table]] provides a list of all [[subsystem DLLs|DLLs]] and functions that the executable uses.
+A [[Process Object]] cannot be executed. Rather, the [[Thread|Threads]] which are part of that [[Process]] are being executed. Within an [[Image File]], there is an array of data structures, one per imported [[subsystem DLLs|DLL]]. The [[Import Address Table]] provides a list of all [[subsystem DLLs|DLLs]] and functions that the executable uses.
 
 All [[Process|Processes]] are subject to the same behaviour (*with some minor differences*). The [[Image Loader]] initializes the [[User Application Space|User mode]] state for the application, creating
 

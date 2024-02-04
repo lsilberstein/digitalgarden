@@ -4,7 +4,8 @@ description:
 type: definition
 kurs: 
 vorlesungnr: 0
-tags: 
+tags:
+  - OSNW
 draft: false
 date: 
 aliases:

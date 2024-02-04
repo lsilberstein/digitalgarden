@@ -25,7 +25,7 @@ linter-yaml-title-alias: TCP Protocol
 
 1. The original stream is numbered by bytes
 2. [[Segment|Segments]] contain *Sequence numbers* of data bytes
-3. A payload for the [[IPv4 protocol|IP Protocol]]
+3. A payload for the [[IP protocol|IP Protocol]]
 
 *Full duplex* exchanges data in both directions simultaneously.
 
@@ -36,7 +36,7 @@ linter-yaml-title-alias: TCP Protocol
 A [[TCP protocol|TCP]] connection has two endpoints. [[TCP protocol|TCP]] has different views to each adjacent layers.
 
 - [[TCP protocol|TCP]] in from [[Application Layer|L7]]: [[TCP protocol|TCP]] gets its payload as a chunk of bytes from [[Application Layer|L7]].
-- [[TCP protocol|TCP]] out to [[Network Layer|L3]]: A [[Stream Interface|Byte Stream]] consists of [[Segment|Segments]] as payload to [[Network Layer|L3]]. The [[Network Layer|L3]] [[Protocol]], e.g. [[IPv4 protocol|IP]] treats [[TCP protocol|TCP]] like data and does not interpret any contents of the [[TCP protocol|TCP]] message.
+- [[TCP protocol|TCP]] out to [[Network Layer|L3]]: A [[Stream Interface|Byte Stream]] consists of [[Segment|Segments]] as payload to [[Network Layer|L3]]. The [[Network Layer|L3]] [[Protocol]], e.g. [[IP protocol|IP]] treats [[TCP protocol|TCP]] like data and does not interpret any contents of the [[TCP protocol|TCP]] message.
 - [[TCP protocol|TCP]] to [[TCP protocol|TCP]]: a [[TCP protocol|TCP]] receiver sends acknowledgements (ACKs) for [[Segment|Segments]] received correctly from the sender. A [[TCP protocol|TCP]] sender expects AKCs afterwards.
 
 In most cases, we use an additional [[Protocol]] between [[TCP protocol|TCP]] and [[Application Layer|L7]] ([[Presentation Layer|L6]]), also called the [[Transport Layer Security]] ([[Transport Layer Security|TLS]]) which provides encrypted [[Application Layer|L7]] data. [[Transport Layer Security|TLS]] has its own records with its own headers.
@@ -112,7 +112,7 @@ e1(OSI Layer) --> e2(Specific Protocol) --> e3(Protocol Implementation)
 
 ## Other [[TCP protocol|TCP]] Control Bits (flags)
 
-These flags are used together with the new `ECT` and `CE` flags in the [[IPv4 protocol|IP]] header for *[[Explicit Congestion Notification]]* ([[Explicit Congestion Notification|ECN]]), a method for an intermediate [[Router]] to notify the end hosts of impending [[Networking|Network]] congestion.
+These flags are used together with the new `ECT` and `CE` flags in the [[IP protocol|IP]] header for *[[Explicit Congestion Notification]]* ([[Explicit Congestion Notification|ECN]]), a method for an intermediate [[Router]] to notify the end hosts of impending [[Networking|Network]] congestion.
 
 | Flag | Detail |  |
 | ---- | ---- | ---- |
@@ -154,7 +154,7 @@ Can be anywhere between $0$ and $32$ bits.
 - related to other [[Protocol|Protocols]]
 
 > [!Example]  
-> The Window Field [[Process]] to [[Process]] communication. It is related to the fact that [[TCP protocol|TCP]] [[Segment|Segments]] are payload for [[IPv4 protocol|IP]] [[Packets]].
+> The Window Field [[Process]] to [[Process]] communication. It is related to the fact that [[TCP protocol|TCP]] [[Segment|Segments]] are payload for [[IP protocol|IP]] [[Packets]].
 > 
 > ![[Pasted image 20231106104528.png]]
 

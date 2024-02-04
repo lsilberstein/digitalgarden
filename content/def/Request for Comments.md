@@ -14,7 +14,7 @@ aliases:
 
 # Request for Comments
 
-[[Protocol|Protocols]] such as [[TCP protocol|TCP]], [[IPv4 protocol|IP]], [[Internet Control Message Protocol|ICMP]] and [[User Datagram Protocol|UDP]] are defined in the [[Request for Comments]] ([[Request for Comments|RFC]]) document series. They contain technical and organisational notes about the internet. They cover many aspects of computer [[Networking]], such as
+[[Protocol|Protocols]] such as [[TCP protocol|TCP]], [[IP protocol|IP]], [[Internet Control Message Protocol|ICMP]] and [[User Datagram Protocol|UDP]] are defined in the [[Request for Comments]] ([[Request for Comments|RFC]]) document series. They contain technical and organisational notes about the internet. They cover many aspects of computer [[Networking]], such as
 
 - [[Protocol]] specification
 - deployment procedures

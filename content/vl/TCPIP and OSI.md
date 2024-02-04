@@ -89,8 +89,8 @@ Its main purpose is the communication between two certain [[Process|Processes]].
 
 ### Layer 3: [[Network Layer]]
 
-To move data from *host-to-host*, across network cores (interconnected mesh or routers). The layer for the most important [[Protocol]] of the internet is [[IPv4 protocol|IP Protocol]] which is a *connectionless* internetworking [[Protocol]]: No [[Session]] is established before exchanging data.  
-It makes a *best effort* attempt to deliver a [[Packets|packet]]. A [[Packets|packet]] might be lost, delivered out of service, duplicated or delayed. A [[Network Layer|L3]] [[Protocol]] like [[IPv4 protocol|IPv4]] does not attempt to recover from these types of errors. The acknowledgement of [[Packets]] being delivered is the responsibility of a higher-level [[Protocol]].
+To move data from *host-to-host*, across network cores (interconnected mesh or routers). The layer for the most important [[Protocol]] of the internet is [[IP protocol|IP Protocol]] which is a *connectionless* internetworking [[Protocol]]: No [[Session]] is established before exchanging data.  
+It makes a *best effort* attempt to deliver a [[Packets|packet]]. A [[Packets|packet]] might be lost, delivered out of service, duplicated or delayed. A [[Network Layer|L3]] [[Protocol]] like [[IP protocol|IPv4]] does not attempt to recover from these types of errors. The acknowledgement of [[Packets]] being delivered is the responsibility of a higher-level [[Protocol]].
 
 ### Layer 2: [[Data Link Layer]]
 
@@ -116,7 +116,7 @@ It includes signal decoders and encoders. It synchronizes signal communication v
 David Chappell was involved in the development of the [[OSI reference model]].
 
 > The bottom three layers - [[Physical Layer]], [[Data Link Layer]] and [[Network Layer]] - were intended to reflect the tree layers of the then-new X.25 [[Protocol]] for [[Wide Area Networks]].  
-> The slightly more modern idea of a connectionless internetworking [[Protocol]] such as [[IPv4 protocol|IP Protocol]] was seen as *heresy* by the model's creators.
+> The slightly more modern idea of a connectionless internetworking [[Protocol]] such as [[IP protocol|IP Protocol]] was seen as *heresy* by the model's creators.
 
 \- David Chappell
 
@@ -232,12 +232,12 @@ To move data from *host-to-host*.
 <!--ID: 1706721818241-->
 
 
-What is the [[IPv4 protocol|IP Protocol]]? #flashcard
-[[IPv4 protocol|IP Protocol]] is a *connectionless* internetworking [[Protocol]].
+What is the [[IP protocol|IP Protocol]]? #flashcard
+[[IP protocol|IP Protocol]] is a *connectionless* internetworking [[Protocol]].
 <!--ID: 1706721818242-->
 
 
-A [[Network Layer|L3]] [[Protocol]] like [[IPv4 protocol|IPv4]] does attempt to recover from errors such as lost or out of order [[Packets]]. (True or False) #flashcard
+A [[Network Layer|L3]] [[Protocol]] like [[IP protocol|IPv4]] does attempt to recover from errors such as lost or out of order [[Packets]]. (True or False) #flashcard
 False. Thats [[Transport Layer|L4]]'s task.
 <!--ID: 1706721818243-->
 

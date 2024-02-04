@@ -10,11 +10,16 @@ draft: false
 date: 
 aliases:
   - packet
+  - PDU
+  - Protocol Data Unit
 ---
 
 # Packets
 
 structured bytes
+
+>[!Definiton]
+>A [[Packets|PDU]] is layer and [[Protocol]] specific.
 
 Even though, the the *[[Packets]]* is used for all layers, we should use these specific terms:
 

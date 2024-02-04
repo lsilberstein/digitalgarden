@@ -31,6 +31,7 @@ Networking, Rechnernetze
 
 - [[TCPIP and OSI]] (30.10.2023)
 - [[TCP in Detail]] (6.11.2023)
+- [[TCP, UDP, IP]] (13.11.2023)
 
 ## Anki
 

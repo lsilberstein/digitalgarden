@@ -24,7 +24,7 @@ Communication over [[Networking|Networks]] is a complex task. [[TCPIP protocol s
 David Chappell was involved in the development of the [[OSI reference model]].
 
 > The bottom three layers - [[Physical Layer]], [[Data Link Layer]] and [[Network Layer]] - were intended to reflect the tree layers of the then-new X.25 [[Protocol]] for [[Wide Area Networks]].  
-> The slightly more modern idea of a connectionless internetworking [[Protocol]] such as [[IPv4 protocol|IP Protocol]] was seen as *heresy* by the model's creators.
+> The slightly more modern idea of a connectionless internetworking [[Protocol]] such as [[IP protocol|IP Protocol]] was seen as *heresy* by the model's creators.
 
 \- David Chappell
 

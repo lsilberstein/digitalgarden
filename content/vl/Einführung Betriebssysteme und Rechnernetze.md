@@ -27,7 +27,7 @@ In the second part of this lecture, *[[Networking]]*, we will see that we need a
 
 - The [[TCPIP protocol stack]]
 - The [[TCP protocol]] 
-- The [[IPv4 protocol]] 
+- The [[IP protocol]] 
 - The [[Internet Control Message Protocol]] ([[Internet Control Message Protocol|ICMP]]) protocol
 - [[Dynamic Host Configuration Protocol]] ([[Dynamic Host Configuration Protocol|DHCP]])
 - [[Network Address Translation]] ([[Network Address Translation|NAT]])

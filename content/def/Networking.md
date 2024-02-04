@@ -12,6 +12,7 @@ aliases:
   - Network
   - Networks
 ---
+
 # Networking
 
 What are some basic requirements for [[Networking]]?
@@ -28,3 +29,9 @@ How can we identify the software that contains [[Thread]] A or B? In addition we
 - Its communication speed
 - The type of access
 - The type of service
+
+## Network to Network Communication
+
+The differentiation between [[Networking|Networks]] makes [[Routing]] more efficient.
+
+![[Pasted image 20231114082928.png]]

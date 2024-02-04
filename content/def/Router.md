@@ -7,6 +7,12 @@ vorlesungnr: 0
 tags:
   - OSNW
 draft: false
-date:
+date: 
+aliases:
+  - Routers
 ---
+
 # Router
+
+> [!Definition]  
+> [[Router|Routers]] move [[Packets]] of data between [[Networking|Networks]].

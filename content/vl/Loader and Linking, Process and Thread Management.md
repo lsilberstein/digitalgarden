@@ -545,7 +545,7 @@ A [[Threads Local Storage|TLS]] is a private storage area for
 <!--ID: 1706354045528-->
 
 
-A [[Central Processing Unit|CPU]] only needs to execute multiple [[Thread|Threads]] at the same time. (True or False) #flashcard
+A [[Central Processing Unit|CPU]] only needs to execute one [[Thread]]^ at the same time. (True or False) #flashcard
 False. It often needs to execute multiple [[Thread|Threads]] at the same time
 <!--ID: 1706354045529-->
 
