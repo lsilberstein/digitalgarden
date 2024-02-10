@@ -32,6 +32,8 @@ Networking, Rechnernetze
 - [[TCPIP and OSI]] (30.10.2023)
 - [[TCP in Detail]] (6.11.2023)
 - [[TCP, UDP, IP]] (13.11.2023)
+- [[Routing, ICMP, DHCP, NAT]] (20.11.2023)
+- [[Sockets, Windows Networking]] (27.11.2023)
 
 ## Anki
 
