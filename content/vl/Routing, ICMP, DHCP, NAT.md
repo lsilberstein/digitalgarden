@@ -4,7 +4,7 @@ description:
 type: Vorlesung
 kurs: Betriebssysteme und Rechnernetze
 vorlesungnr: 10
-tags: [OSNW, vorlesung, wise2324]
+tags: [OSNW, vorlesung, wise2324, flashcard]
 draft: false
 date: 2023-11-20
 ---
@@ -33,7 +33,7 @@ See here a route, a [[Datagram]] took:
 
 ![[Pasted image 20231120081404.png]]
 
-One, or usually, more [[Router|Routers]] are used to direct a [[Packets|packet]] to its destination. [[Router|Routers]] only know what network the *host* is a member of. They use information stored in their [[Routing Tables|Routing Table]] to determine how to get to [[Packets|packet]] to the destinations host [[Networking|Network]].
+One, or usually, more [[Router|Routers]] are used to direct a [[Packets|packet]] to its destination. [[Router|Routers]] only know what network the *host* is a member of. They use information stored in their [[Routing Tables|Routing Table]] to determine how to get a [[Packets|packet]] to the destinations host [[Networking|Network]].
 
 ## [[Wifi-Router]]
 
@@ -96,7 +96,7 @@ All [[Router|Routers]] inside the same [[Autonomous System|AS]] share the same [
 ## [[Exterior Gateway Protocol]]
 
 > [!Defintion]  
-> [[Exterior Gateway Protocol]] is another [[Protocol]] type the handles [[Routing]] *between different* [[Autonomous System|AS]].
+> [[Exterior Gateway Protocol]] is another [[Protocol]] type that handles [[Routing]] *between different* [[Autonomous System|AS]].
 
 ## [[Source Routing]]
 
@@ -145,7 +145,7 @@ As defined in [[Request for Comments|RFC]] 792: The [[Internet Control Message P
 
 ![[Pasted image 20231120093401.png]]
 
-[[Internet Control Message Protocol|ICMP]]s realisation is by nature quite minima. [[Internet Control Message Protocol|ICMP]] is an integral part of any [[IP Network]] realising:
+[[Internet Control Message Protocol|ICMP]]s realisation is by nature quite minimal. [[Internet Control Message Protocol|ICMP]] is an integral part of any [[IP Network]] realising:
 
 - feedback to source: [[Routing]] failures
 - feedback to source: Whenever the TTL has exceeded its value
@@ -300,4 +300,254 @@ Obvious differences exist:
 
 # Anki
 
-#todo
+What structure are [[Router|Routers]] using to determine how to get a [[Packets|packet]] to the destinations host [[Networking|Network]]? #flashcard
+A [[Routing Tables|Routing Table]]
+<!--ID: 1707673387038-->
+
+
+What is the *definition* of a [[Wifi-Router]]? #flashcard
+A [[Router]] that combines the [[Networking]] functions of a [[Wireless Access Point]] and a [[Router]] is called a [[Wifi-Router]]. 
+<!--ID: 1707673387041-->
+
+
+What is a [[Wireless Access Point]]? #flashcard
+A [[Wireless Access Point]] is hardware that allows Wifi-devices to connect to a wired [[Networking|Network]].
+<!--ID: 1707673387042-->
+
+
+What *two* ways of [[Routing]] exist? #flashcard 
+- *Static configured Routing*
+- *Dynamic Routing*
+<!--ID: 1707673387043-->
+
+
+What does is mean when using a *Static configured Routing*? #flashcard
+Explicitly specify the route to use for [[Packets]]. 
+<!--ID: 1707673387044-->
+
+
+What does *Dynamic Routing* mean? #flashcard
+[[Router|Routers]] themselves determine the *most efficient* path that [[Packets]] go through.
+<!--ID: 1707673387045-->
+
+
+What [[Protocol|Protocols]] are used for creating dynamic [[Routing Tables]]? #flashcard 
+- [[Routing Information Protocol|RIP]]
+- [[Open Shortest Path First|OSPF]]
+- [[Interior Gateway Protocol|IGP]]
+<!--ID: 1707673387046-->
+
+
+Which *two* types of *Static Routing* do exist? #flashcard 
+1. [[Source Routing]]
+2. [[Service Routing]] 
+<!--ID: 1707673387047-->
+
+
+What is [[Source Routing]] and what *two* types of [[Source Routing]] do exist? #flashcard 
+1. *Strict SR*: The sender specifies the exact Route
+2. *Loose Source Record Routing (LSRR)*: One or more hops that the [[Packets|packet]] must go through
+<!--ID: 1707673387048-->
+
+
+What does the *abbreviation* [[Routing Information Protocol|RIP]] mean? #flashcard
+[[Routing Information Protocol]]
+<!--ID: 1707673387049-->
+
+
+How does [[Routing Information Protocol|RIP]] determine the optimal route for a [[Packets|packet]]? #flashcard
+By hop count
+<!--ID: 1707673387050-->
+
+
+What does the *abbreviation* [[Open Shortest Path First|OSPF]] mean? #flashcard
+[[Open Shortest Path First]]
+<!--ID: 1707673387051-->
+
+
+What information does [[Open Shortest Path First|OSPF]] use to calculate the optimal route for [[Packets]]? #flashcard
+information about [[Bandwidth]] and delay of other [[Router|Routers]].
+<!--ID: 1707673387052-->
+
+
+What does the *abbreviation* [[Autonomous System|AS]] mean? #flashcard
+[[Autonomous System]]
+<!--ID: 1707673387053-->
+
+
+What is an [[Autonomous System]]? #flashcard
+An [[Autonomous System]] is a collection of [[Networking|Networks]] under a single administrative control.
+<!--ID: 1707673387054-->
+
+
+What does the *abbreviation* [[Interior Gateway Protocol|IGP]] mean? #flashcard
+[[Interior Gateway Protocol]]
+<!--ID: 1707673387055-->
+
+
+What is the task of [[Interior Gateway Protocol|IGP]]? #flashcard
+[[Interior Gateway Protocol]] is a type of [[Routing Protocols|Routing Protocol]] that handles [[Routing]] *within* an [[Autonomous System|AS]].
+<!--ID: 1707673387056-->
+
+
+What is the *definition* of the [[Exterior Gateway Protocol]]? #flashcard
+[[Exterior Gateway Protocol]] is another [[Protocol]] type that handles [[Routing]] *between different* [[Autonomous System|AS]].
+<!--ID: 1707673387057-->
+
+
+In sum, what is [[Service Routing]]? #flashcard
+[[Service Routing]] enables [[Protocol]] dependent [[Routing]].
+<!--ID: 1707673387058-->
+
+
+What is the usage of the *Time to Live* Header field in the [[IPv4]] [[Protocol]]? #flashcard
+The maximum number of hops remaining, before the [[Packets|packet]] dies.
+<!--ID: 1707673387059-->
+
+
+What is the usage of the *Protocol* Header Field in the [[IPv4]] [[Protocol]]? #flashcard
+The [[Protocol]] being carried in the data, such as [[TCP protocol|TCP]], [[User Datagram Protocol|UDP]] or [[Internet Control Message Protocol|ICMP]].
+<!--ID: 1707673387060-->
+
+
+When is the *Checksum* Header Field in the [[IPv4]] [[Protocol]] being calculated? #flashcard
+At each [[Router]]
+<!--ID: 1707673387061-->
+
+
+What is the maximum length for the *Options* Header field in [[IPv4]]? #flashcard
+40 Bytes
+<!--ID: 1707673387062-->
+
+
+What might be an example of data that is stored in the *Options* Header field in [[IPv4]]? #flashcard
+It may be used to specify the Route that a [[Packets|packet]] should take through the [[Networking|Network]].
+<!--ID: 1707673387063-->
+
+
+What does the *abbreviation* [[Internet Control Message Protocol|ICMP]] mean? #flashcard
+[[Internet Control Message Protocol]]
+<!--ID: 1707673387064-->
+
+
+[[Internet Control Message Protocol|ICMP]] is part of which [[OSI reference model]] layer? #flashcard
+[[Network Layer]]
+<!--ID: 1707673387065-->
+
+
+What *three* features does [[Internet Control Message Protocol|ICMP]] provide? #flashcard 
+- feedback to source: [[Routing]] failures
+- feedback to source: Whenever the TTL has exceeded its value
+- or just checking whether a remote host is available via [[Internet Control Message Protocol|ICMP]] echo and reply messages
+<!--ID: 1707673387066-->
+
+
+Firewalls mostly let [[Internet Control Message Protocol|ICMP]] request through with no problem. (True or False) #flashcard
+False. Firewalls preferably block [[Internet Control Message Protocol|ICMP]], because it induces countless security issues.
+<!--ID: 1707673387067-->
+
+
+What is an [[IP Network]]? #flashcard
+An [[IP Network]] is a [[Networking|Network]] that connects to other parts of the Internet by using [[IP protocol|IP]] at the [[OSI reference model|OSI]] [[Network Layer]].
+<!--ID: 1707673387068-->
+
+
+What *three* kinds of [[Protocol|Protocols]] does [[IP Network|IP Networking]] require? #flashcard 
+1. [[IP protocol|IP]] for host-to-host communication
+2. [[Routing Protocols]] to let [[Router|Routers]] move [[Packets]] from one [[Networking|Network]] to another in an efficient way
+3. [[Internet Control Message Protocol|ICMP]] to control and maintain [[Routing]]
+<!--ID: 1707673387069-->
+
+
+What does the *abbreviation* [[Dynamic Host Configuration Protocol|DHCP]] mean? #flashcard
+[[Dynamic Host Configuration Protocol]]
+<!--ID: 1707673387070-->
+
+
+What is the *definition* of [[Dynamic Host Configuration Protocol|DHCP]]? #flashcard
+[[Dynamic Host Configuration Protocol]] is a client / server [[Protocol]] to lease [[IP Address|IP Addresses]].
+<!--ID: 1707673387071-->
+
+
+What *four* additional types of information does a [[Dynamic Host Configuration Protocol|DHCP]] server provide? #flashcard 
+- default gateway
+- host name
+- name server
+- [[Subnet]] mask
+<!--ID: 1707673387072-->
+
+
+A [[Dynamic Host Configuration Protocol|DHCP]] server can only provide static [[IP Address|IP Addresses]]. (True or False) #flashcard
+False
+<!--ID: 1707673387073-->
+
+
+Why might a *Relay Agent* be useful when using a [[Dynamic Host Configuration Protocol|DHCP]] server? #flashcard
+If there are no [[Dynamic Host Configuration Protocol|DHCP]] servers on the same [[Local Area Network|LAN]] as the client, then the gateway [[Router]] must be configured to relay [[Dynamic Host Configuration Protocol|DHCP]] requests.
+<!--ID: 1707673387074-->
+
+
+What are *two* Use-Cases for using [[Dynamic Host Configuration Protocol|DHCP]]? #flashcard
+Assigning [[IP Address|IP Addresses]] for new devices and for devices that are moved from one [[Subnet]] to another.
+<!--ID: 1707673387075-->
+
+
+What is another method than using [[Dynamic Host Configuration Protocol|DHCP]] for leasing [[IP Address|IP Addresses]]? #flashcard
+Manual assignment of [[IP Address|IP Addresses]].
+<!--ID: 1707673387076-->
+
+
+What does the *abbreviation* [[Network Address Translation|NAT]] mean? #flashcard
+[[Network Address Translation]]
+<!--ID: 1707673387077-->
+
+
+How is it possible to have more than 4 billion devices with [[IPv4]] addresses? #flashcard
+[[Network Address Translation|NAT]]
+<!--ID: 1707673387078-->
+
+
+What does a [[Network Address Translation|NAT]] device do? #flashcard
+A [[Network Address Translation|NAT]] device is required to map private [[IP Address|IP Addresses]] to valid [[IP Address|IP Addresses]] and vice versa.
+<!--ID: 1707673387079-->
+
+
+How could a schematic operation of a [[Network Address Translation|NAT]] device look like? #flashcard
+![[Pasted image 20231121082904.png]]
+<!--ID: 1707673387080-->
+
+
+How could a schematic topology of a [[Network Address Translation|NAT]] is a Corporate [[Networking|Network]] look like? #flashcard
+![[Pasted image 20231121083508.png]]
+<!--ID: 1707673387081-->
+
+
+What is the *definition* of Overloading ([[Network Address Translation|NAT]])? #flashcard
+Overloading is a form of dynamic [[Network Address Translation|NAT]]. It maps several unregistered [[IP Address|IP Addresses]] to a single registered [[IP Address]]. Also called *IP Masquerading*, by using different [[Port Numbers|Ports]].
+<!--ID: 1707673387082-->
+
+
+What are *differences* between [[Network Address Translation|NAT]] and a Proxy? #flashcard 
+1. [[Network Address Translation|NAT]] is [[Network Layer|L3]], while a Proxy is [[Transport Layer|L4]]
+2. [[Network Address Translation|NAT]] is transparent to the source and destination, while a Proxy is not
+<!--ID: 1707673387083-->
+
+
+What are some security concerns of a [[Network Address Translation|NAT]]? #flashcard 
+- An attacker could take over a [[Network Address Translation|NAT]] device
+- An attacker could try to guess the addressing / mapping scheme
+- What about insiders?
+<!--ID: 1707673387084-->
+
+
+Why might using a [[Network Address Translation|NAT]] be of usage for security? #flashcard
+[[Network Address Translation|NAT]] hides internal [[IP Address|IP Addresses]]. 
+<!--ID: 1707673387085-->
+
+
+What is a [[Carrier]]? #flashcard
+[[Carrier|Carriers]] are [[Carrier|Service Providers]] such as
+- ISPs
+- Fibre Broadband providers
+- Mobil Operators
+<!--ID: 1707673387086-->
