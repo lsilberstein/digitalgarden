@@ -22,5 +22,6 @@ Das hier ist eine Sammlung aller meiner Notizen für das Semester Sechs. Ich hab
 - [[pubdashs/Seminar|Seminar]]
 - [[pubdashs/Betriebssysteme und Rechnernetze|Betriebssysteme Und Rechnernetze]]
 - [[pubdashs/Webprogrammierung|Webprogrammierung]]
+- [[Gesprächs und Verhandlungsführung|Gesprächs Und Verhandlungsführung]]
 
 Insgesamt sollen auch die Definitionsnodes besser geordnet werden. Hier soll mehr Text auf nur eine Page kommen statt wie davor. 
