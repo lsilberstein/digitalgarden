@@ -57,8 +57,15 @@ Diese Form der [[Kommunikation|Kommunikation]] ist *asymmetrisch*. Unterschiedli
 > [!Definition]  
 > *[[Ergonomie]]* ist damit die Lehre von der menschlichen Arbeit, ihrer Beschreibung, Modellierung und Verbesserung.
 
-[[Ergonomie]] ist auch die Lehre von der wechselseitigen Anpassung von Mensch und Maschine. 
+[[Ergonomie]] ist auch die Lehre von der wechselseitigen Anpassung von Mensch und Maschine. Wenn es um *Softwareergonomie* geht, geht es darum, wie wir die Nutzung eines Computer gestalten können, sodass eine Software den Nutzer möglichst gut unterstützt.
 
-# Historie
+# Historie Der [[Kommunikation|Mensch zu Computer Kommunikation]]
 
-Hier 9:15
+Wie hat sich die Interaktion in der [[Kommunikation|Mensch zu Computer Kommunikation]] verändert? Es gibt dabei zwei *Interaktionsformen*: 
+
+- Technik oder 
+- Kulturtechniken und Fertigkeiten, wie zum Beispiel Lesen und Schreiben, Schreibmaschine, Telefon, Lichtschalter
+
+Beide entwickeln sich, wenn zum Beispiel neue Techniken hinzukommen mit entweder neuer oder alter Interaktionsform, oder aber auch wenn Technik selber zu einer Kulturtechnik wird.
+
+![[01 - page 1.png]]
