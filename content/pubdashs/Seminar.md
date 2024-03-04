@@ -18,4 +18,4 @@ Hier werden allgemeine Informationen, als auch Links zu allen Vorlesungsmitschri
 
 ## Vorlesungen
 
-Zurzeit gab es noch keine Vorlesungen.
+- [[Organisatorisches und Vorstellung Themen]] (04.03.2024)
