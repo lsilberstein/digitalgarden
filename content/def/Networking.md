@@ -6,6 +6,7 @@ kurs:
 vorlesungnr: 0
 tags:
   - OSNW
+  - WEBPROG
 draft: false
 date: 
 aliases:
@@ -14,6 +15,9 @@ aliases:
 ---
 
 # Networking
+
+- [[OSI reference model]]
+- [[TCPIP protocol stack|TCPIP]]
 
 What are some basic requirements for [[Networking]]?
 
