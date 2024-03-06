@@ -55,7 +55,7 @@ Diese Form der [[Kommunikation|Kommunikation]] ist *asymmetrisch*. Unterschiedli
 *nomos*: griechisch für Regel oder Gesetz.
 
 > [!Definition]  
-> *[[Ergonomie]]* ist damit die Lehre von der menschlichen Arbeit, ihrer Beschreibung, Modellierung und Verbesserung.
+> *[[Ergonomie]]* ist damit die Lehre der menschlichen Arbeit, ihrer Beschreibung, Modellierung und Verbesserung.
 
 [[Ergonomie]] ist auch die Lehre von der wechselseitigen Anpassung von Mensch und Maschine. Wenn es um *Softwareergonomie* geht, geht es darum, wie wir die Nutzung eines Computer gestalten können, sodass eine Software den Nutzer möglichst gut unterstützt.
 
