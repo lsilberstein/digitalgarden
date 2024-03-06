@@ -18,6 +18,7 @@ Hier werden allgemeine Informationen, als auch Links zu allen Vorlesungsmitschri
 Dieser Kurs arbeitete vor allem mit einzelnen Aufzeichnungen. Deshalb werden hier die einzelnen Aufzeichnungen aufgelistet.
 
 - [[Einführung Mensch Computer Interaktion|Einführung]]
+- [[Grundmodell]]
 
 ## Literatur
 

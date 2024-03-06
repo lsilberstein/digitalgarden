@@ -70,6 +70,13 @@ Bei anderen Vorträgen nehmen Sie teil. Notieren Sie sich *aktiv* Fragen zu den 
 
 ## Durchführung Eines Review
 
-Sie bekommen eine andere Ausarbeitung aus Ihrem Track für ein Review.  
-Hier fehlt was
+Sie bekommen eine andere Ausarbeitung aus Ihrem Track für ein Review zugewiesen. Lesen Sie die Arbeit Ihrer KommilitonInnen und erstellen Sie ein schriftliches Gutachten. Zu den Formalien gehört:
 
+- Umfang einer Seite
+- Erstellung entweder in Latex oder Word
+
+Hier eine grobe Fassung der Beurteilungskriterien:
+
+- Struktur der Ausarbeitung, wie roter Faden des Textes, Sinnvolle Auswahl, Abgrenzung, Reihung und Zuschnitt der dargestellten Inhalte.
+- Wissenschaftlichkeit
+- Stil / Form, wie sprachlicher Ausdruck, Lesbarkeit, Vollständigkeit und Einhaltung der Formatvorgaben.
