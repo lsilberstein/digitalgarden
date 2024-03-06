@@ -17,8 +17,10 @@ Hier werden allgemeine Informationen, als auch Links zu allen Vorlesungsmitschri
 
 Dieser Kurs arbeitete vor allem mit einzelnen Aufzeichnungen. Deshalb werden hier die einzelnen Aufzeichnungen aufgelistet.
 
-- [[Einführung Mensch Computer Interaktion|Einführung]] (07.03.2024)
-- [[Grundmodell]] 
+- [[Einführung Mensch Computer Interaktion|Einführung]] (06.03.2024)
+- [[Grundmodell]] (06.03.2024)
+- [[Wahrnehmung Visuelle Wahrnehmung]] (13.03.2024)
+- [[Wahrnehmung Farbwahrnehmung]] (13.03.2024)
 
 ## Literatur
 
