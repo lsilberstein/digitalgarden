@@ -11,6 +11,7 @@ draft: false
 date:
 ---
 # Farbwahrnehmung
+
 Die [[Stäbchen]] haben zwar eine Empfindlichkeit für unterschiedliche Farben. Für uns sollen diese aber erst einmal von kleinerer Bedeutung sein. Vielmehr haben die [[Zäpfchen]] einen größeren Einfluss auf die [[Farbwahrnehmung]] an sich.
 
 ![[Pasted image 20240306143803.png]]
@@ -30,3 +31,11 @@ Farbkreis nach Goethe
 ![[Pasted image 20240306145153.png]]
 
 Farbkreis nach Johannes Itten
+
+## Vertiefung
+
+- [[Farbkontraste|Farbkontrast]]
+- [[Farbenwirkung]]
+- [[HSV Farbraum]]
+- [[RGB Farbraum]]
+- [[Farbenblindheit]]

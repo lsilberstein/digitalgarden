@@ -21,6 +21,9 @@ Dieser Kurs arbeitete vor allem mit einzelnen Aufzeichnungen. Deshalb werden hie
 - [[Grundmodell]] (06.03.2024)
 - [[Wahrnehmung Visuelle Wahrnehmung]] (13.03.2024)
 - [[Wahrnehmung Farbwahrnehmung]] (13.03.2024)
+- [[Wahrnehmung Bewegung Tiefe]] (13.03.2024)
+- [[Wahrnehmung Täuschung]] (13.03.2024)
+- [[Wahrnehmung Hören]] (13.03.2024)
 
 ## Literatur
 
