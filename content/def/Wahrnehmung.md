@@ -18,3 +18,6 @@ date:
 
 - [[Visuelle Wahnehmung]]
 - [[Auditive Wahrnehmung]]
+- [[Tastsinn]]
+- [[Propriozeption]]
+- [[Geruchs- und Geschmackswahrnehmung]]
