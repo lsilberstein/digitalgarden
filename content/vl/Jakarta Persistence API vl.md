@@ -1,5 +1,5 @@
 ---
-title: Jakarta Persistence API
+title: Jakarta Persistence API vl
 description: 
 type: Vorlesung
 kurs: Fortgeschrittene Themen des Software Engineering
@@ -16,7 +16,7 @@ date modified: Monday, November 20th 2023, 2:39:07 pm
 
 [[Einführung, JAX-RS]]
 
-# Jakarta Persistence API
+# [[Jakarta Persistence API]] Vl
 
 > Umgebungsvariablen setzen; Galleon Layers des Wilfly-Servers werden benutz, um u.a. die Datasource zu konfigurieren.
 
