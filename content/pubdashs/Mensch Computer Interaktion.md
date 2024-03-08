@@ -15,7 +15,7 @@ Hier werden allgemeine Informationen, als auch Links zu allen Vorlesungsmitschri
 
 ## Vorlesungen
 
-Dieser Kurs arbeitete vor allem mit einzelnen Aufzeichnungen. Deshalb werden hier die einzelnen Aufzeichnungen aufgelistet.
+Dieser Kurs arbeitete vor allem mit einzelnen Aufzeichnungen. Deshalb werden hier die einzelnen Aufzeichnungen aufgelistet. Das Datum richtet sich vor allem nach den Daten im Kursplan; im Laufe des Semesters werden die Daten aber auch nach Bedarf angepasst.
 
 - [[Einführung Mensch Computer Interaktion|Einführung]] (06.03.2024)
 - [[Grundmodell]] (06.03.2024)

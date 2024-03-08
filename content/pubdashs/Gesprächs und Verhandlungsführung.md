@@ -13,8 +13,12 @@ linter-yaml-title-alias: Gesprächs Und Verhandlungsführung
 
 # Gesprächs Und Verhandlungsführung
 
-Hier werden allgemeine Informationen, als auch Links zu allen Vorlesungsmitschriften für den Kurs *Gesprächs und Verhandlungsführung* ( #GuV  )  veröffentlicht. 
+Hier werden allgemeine Informationen, als auch Links zu allen Vorlesungsmitschriften für den Kurs *Gesprächs und Verhandlungsführung* ( #GuV )  veröffentlicht. 
 
 ## Vorlesungen
 
-Zurzeit gab es noch keine Vorlesungen.
+Zurzeit gab es noch keine Vorlesungen. 
+
+## Research
+
+Im Zuge der abzugebenden Hausarbeit soll hier auch eine Art Startpunkt für meinen Research entstehen. 

@@ -10,6 +10,7 @@ tags:
   - sose24
 draft: true
 date: 2024-03-01
+public dashboard: "[[pubdashs/Webprogrammierung|Webprogrammierung]]"
 ---
 
 # Webprogrammierung

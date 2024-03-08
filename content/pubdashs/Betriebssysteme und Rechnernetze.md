@@ -35,6 +35,8 @@ Networking, Rechnernetze
 - [[Routing, ICMP, DHCP, NAT]] (20.11.2023)
 - [[Sockets, Windows Networking]] (27.11.2023)
 
+Theoretisch gibt es hier noch eine Vorlesung zum Thema IPv6. Aus mangelnder Interesse werde diese aber mit sehr großer Wahrscheinlichkeit nicht hinzufügen.
+
 ## Anki
 
 Ein Anki-Deck kann [hier](https://mega.nz/file/Wc0lXZDS#9Ed8chYJ-nFbx5QOs-Hs8TqQ00RyVRuz5fB-HyifHtc) gefunden werden. Dieses ist Stand 20.01.2024 noch in Arbeit.
