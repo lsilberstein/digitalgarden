@@ -18,8 +18,6 @@ Hier werden allgemeine Informationen, als auch Links zu allen Vorlesungsmitschri
 
 ## Vorlesungen
 
-Zurzeit gab es noch keine Vorlesungen. 
-
 - [[Einführung, JAX-RS|Einführung JAX-RS]] (18.10.2023)
 - [[Jakarta Persistence API vl]] (18.10.2023)
 - [[Beans Kontexte Scopes]] (18.10.2023)
@@ -28,4 +26,4 @@ Zurzeit gab es noch keine Vorlesungen.
 - [[GraalVM, Quarkus]] (21.11.2023)
 - [[Was sind Microservices]] (28.11.2023)
 
-- [ ] Ab Events Definitionen fertig machen
+- [ ] Ab was sind ms

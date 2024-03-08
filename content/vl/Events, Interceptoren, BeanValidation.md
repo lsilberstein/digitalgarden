@@ -131,7 +131,7 @@ Interceptoren müssen aktiviert werden in `beans.xml`
 
 # [[Bean Validation]]
 
-[[Validierung]] ist zentraler Baustein einer jeden Anwendung, Häufig, aber nicht zentral realisiert, z.B. in Präsentationsund Persistenzschicht separat und verschieden gemacht.  
+Validierung ist zentraler Baustein einer jeden Anwendung, Häufig, aber nicht zentral realisiert, z.B. in Präsentationsund Persistenzschicht separat und verschieden gemacht.  
 Mit Bean Validation geht das aber. Die Idee: [[Properties]] des Geschäftsobjekts (POJO) werden Validierungsannotationen versehen. Diese werden unabhängig von der Verwendung des Objekts überwacht.
 
 | Annotation       | Beschreibung                                                                                       |
@@ -254,7 +254,7 @@ Die [[Transactional-Annotation]] wird nur für Business-, aber nicht für Lebens
 
 ## Exceptions
 
-Wie bei Enterprise Beans wird bei `RunTimeExceptions` ein rollback ausgeführt, bei checked Exceptions nicht. Anders als bei Enterprise Beans kann mit den Attributen `rollbackOn` und `dontRollBackOn` jeweils ein [[Array]] von Exceptions angegeben werden, bei deren Auftreten zurück, bzw. nicht zurückgerollt werden soll.
+Wie bei Enterprise Beans wird bei `RunTimeExceptions` ein rollback ausgeführt, bei checked Exceptions nicht. Anders als bei Enterprise Beans kann mit den Attributen `rollbackOn` und `dontRollBackOn` jeweils ein Array von Exceptions angegeben werden, bei deren Auftreten zurück, bzw. nicht zurückgerollt werden soll.
 
 ## [[Transaktions-Scope]]
 

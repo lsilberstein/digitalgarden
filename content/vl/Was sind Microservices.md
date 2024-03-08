@@ -29,7 +29,7 @@ Verteilte Systeme sind schon recht als. Mitter der neunziger gab es bereits *Dis
 Dann kam *[[Enterprise Java Beans]]* [[Enterprise Java Beans|EJB]] (oder auch CORBA done right), aber nur für Java.  
 *[[Simple Object Access Protocol]]* [[Simple Object Access Protocol|SOAP]] (Web-[[Services]] mit XML). Also von *Distributed Objects* hin zu *Web-[[Services]]*. [[Simple Object Access Protocol|SOAP]] war kompliziert, da auf [[HTTP]] ein eigenes Protokoll und eine eigene Schnittstelle aufgesetzt werden musste.  
 [[REST]], basierend auf Fielding. [[REST]] ist auch ein Web-[[Services|service]]. Zur Unterscheidung [[REST|RESTful]] web [[services]] vs. [[Simple Object Access Protocol|SOAP]]-based web [[services]]. Konsequenter Schritt daraus war dann: [[Microservices]].  
-Diese laufen dann typischerweise in der Cloud. Java-EE hatte keine *explizite* Unterstützung für [[Microservices]] und Cloud. Daher wurden daraufhin Arbeiten zu MicroProfile begonnen, was praktisch von allen Applikationen ([[Wildfly]], Payare, TomEE, …) unterstützt wird.
+Diese laufen dann typischerweise in der Cloud. Java-EE hatte keine *explizite* Unterstützung für [[Microservices]] und Cloud. Daher wurden daraufhin Arbeiten zu MicroProfile begonnen, was praktisch von allen Applikationen ([[WildFly]], Payare, TomEE, …) unterstützt wird.
 
 [Retry (microProfile-fault-tolerance-api 2.1 API)](https://download.eclipse.org/microprofile/microprofile-fault-tolerance-2.1/apidocs/org/eclipse/microprofile/faulttolerance/Retry.html#retryOn--)
 

@@ -47,7 +47,7 @@ Ein [[Host]] ist das System, das den Daemon / [[Podman]] betreibt und Images und
 | chroot()       | Kontrolle der Dateisystemwurzel         |
 | cgroups        | Ressourcenschutz                        |
 
-# [[Container Layering]]
+# Container Layering
 
 ![[Pasted image 20231114182604.png]] 
 

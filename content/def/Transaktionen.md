@@ -12,6 +12,7 @@ date:
 aliases:
   - Transaktion
 ---
+
 # Transaktionen
 
 [[Transaktionen]] sollten ACID befolgen:
@@ -22,6 +23,13 @@ aliases:
 - D wie Durability: Eine Transaktion ist nach erfolgreichem Abschluss dauerhaft
 
 Die Transaktionenunterstützung ist in JPA abhängig einmal vom JDBC-Treiben und dem Isolations-Level des Datenbanksystem.
+
+Jakarta [[Transaktionen]] definieren eine Schnittstelle zwischen dem Transaktion-Manager und denen in einem verteilten System beteiligten Parteien:
+
+- der Anwendung
+- dem [[Ressources]]-Manager
+- dem Application Server  
+Es wird sowohl eine programmatische als auch eine deklarative, auf Annotationen basierte Schnittstelle bereitgestellt. Neben normalen [[Transaktionen]] können auch z.B. 2PC verwendet werden. [Two-Phase-Commit-Protocol](https://en.wikipedia.org/wiki/Two-phase_commit_protocol)
 
 ## Optimistisches Locking
 

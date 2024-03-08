@@ -40,13 +40,13 @@ See [here](https://quarkus.io).
 Mit Quarkus kann die Startzeit einer Anwendung um ein Vielfaches verkürzt werden. Das ist hilfreich, wenn Anwendungen skalierbar sein sollen. Frameworks, wie [Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html) unterstützen mittlerweile natives Compilieren.  
 Quarkus kümmert sich darum, dass GraalVM komplexere Programme auch nativ kompilieren kann.
 
-# Maven
+# [[Maven]]
 
-## [[Includes Und Excludes (Maven)]]
+## Includes Und Excludes (Maven)
 
 Wir können bestimmte Packages in Maven excluden, bzw. includen. [Maven – Optional Dependencies and Dependency Exclusions](https://maven.apache.org/guides/introduction/introduction-to-optional-and-excludes-dependencies.html)
 
-## [[Profiles (Maven)]]
+## Profiles (Maven)
 
 [Maven – Introduction to build profiles](https://maven.apache.org/guides/introduction/introduction-to-profiles.html) Wir können auch statt mehrere `pom.xml`'s zu benutzen, mehrere Profile benutzen, um unterschiedliche builds zu aktivieren.
 
