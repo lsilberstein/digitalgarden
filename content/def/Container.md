@@ -19,7 +19,7 @@ date:
 
 ![[Pasted-image-20231114182331.png]]
 
-Unser Ziel ist die Portabilität von Anwendungen. Das klappt meist sehr gut, aber [[Operating System (OS)|OS]]' wie [[Windows]] müssen dann auch Linux(-teile) nachbauen.
+Unser Ziel ist die Portabilität von Anwendungen. Das klappt meist sehr gut, aber [[Operating System|OS]]' wie [[Windows]] müssen dann auch Linux(-teile) nachbauen.
 
 > Seit 5/2019 volle Systemaufruf-Kompatibilität durch WSL
 
@@ -40,4 +40,4 @@ Unser Ziel ist die Portabilität von Anwendungen. Das klappt meist sehr gut, abe
 
 ![[Pasted image 20231114182604.png]] 
 
-[[Container]] werden aus Layern von Images erzeugt. Das [[Operating System (OS)|OS]] ist das unterste [[Image]] und nur Teil des Betreibssystems (z.B. fehlt [[Kernel]]). Darauf dann andere Images für verschiedene Funktionalitäten. Es muss nur jeder [[Image]]-Layer, nicht aber das Gesamt-[[Image]] gespeichert werden. Daher ist es sinnvoll, die Anwendung in einem kleinen Layer oben drauf zu packen.
+[[Container]] werden aus Layern von Images erzeugt. Das [[Operating System|OS]] ist das unterste [[Image]] und nur Teil des Betreibssystems (z.B. fehlt [[Kernel]]). Darauf dann andere Images für verschiedene Funktionalitäten. Es muss nur jeder [[Image]]-Layer, nicht aber das Gesamt-[[Image]] gespeichert werden. Daher ist es sinnvoll, die Anwendung in einem kleinen Layer oben drauf zu packen.

@@ -14,13 +14,13 @@ date modified: Monday, November 20th 2023, 2:39:04 pm
 # Container, Docker, Podman
 # [[Container]]
 
-[[Docker]] ist ein Kommandozeilenwerkzeug, um [[Container]] zu verwalten. Diese Art von Containern sind seit vielen Jahren schon in Linux enthalten. [[Container]] erlauben es, [[Software]] isoliert laufen zu lassen. Im Gegensatz zur Virtualisierung wird in einem [[Container]] kein vollständiges [[Operating System (OS)|OS]] benötigt, da das [[Host]]-[[Operating System (OS)|OS]] ja vorhanden ist. Damit erreicht man sehr leichtgewichtige und in sich abgeschlossene Systeme, die damit auch portabel sind.
+[[Docker]] ist ein Kommandozeilenwerkzeug, um [[Container]] zu verwalten. Diese Art von Containern sind seit vielen Jahren schon in Linux enthalten. [[Container]] erlauben es, Software isoliert laufen zu lassen. Im Gegensatz zur Virtualisierung wird in einem [[Container]] kein vollständiges [[Operating System|OS]] benötigt, da das [[Host]]-[[Operating System|OS]] ja vorhanden ist. Damit erreicht man sehr leichtgewichtige und in sich abgeschlossene Systeme, die damit auch portabel sind.
 
 ## Virtualisierung vs. Container
 
 ![[Pasted-image-20231114182331.png]]
 
-Unser Ziel ist die Portabilität von Anwendungen. Das klappt meist sehr gut, aber [[Operating System (OS)|OS]]' wie [[Windows]] müssen dann auch Linux(-teile) nachbauen.
+Unser Ziel ist die Portabilität von Anwendungen. Das klappt meist sehr gut, aber [[Operating System|OS]]' wie [[Windows]] müssen dann auch Linux(-teile) nachbauen.
 
 > Seit 5/2019 volle Systemaufruf-Kompatibilität durch WSL
 
@@ -30,7 +30,7 @@ Unser Ziel ist die Portabilität von Anwendungen. Das klappt meist sehr gut, abe
 
 ## Container-Konzepte
 
-Ein [[Image]] ist ein Template, um einen [[Docker]]-[[Container]] zu erzeugen. Enthält Schritte, um die entsprechende [[Software]] zu betreiben.  
+Ein [[Image]] ist ein Template, um einen [[Docker]]-[[Container]] zu erzeugen. Enthält Schritte, um die entsprechende Software zu betreiben.  
 Ein [[Container]] ist eine "virtuelle" Maschine, die durch Befehle eines [[Image]] erzeugt wurden.  
 Ein [[Host]] ist das System, das den Daemon / [[Podman]] betreibt und Images und laufende [[Container]] enthält.
 
@@ -51,7 +51,7 @@ Ein [[Host]] ist das System, das den Daemon / [[Podman]] betreibt und Images und
 
 ![[Pasted image 20231114182604.png]] 
 
-[[Container]] werden aus Layern von Images erzeugt. Das [[Operating System (OS)|OS]] ist das unterste [[Image]] und nur Teil des Betreibssystems (z.B. fehlt [[Kernel]]). Darauf dann andere Images für verschiedene Funktionalitäten. Es muss nur jeder [[Image]]-Layer, nicht aber das Gesamt-[[Image]] gespeichert werden. Daher ist es sinnvoll, die Anwendung in einem kleinen Layer oben drauf zu packen.
+[[Container]] werden aus Layern von Images erzeugt. Das [[Operating System|OS]] ist das unterste [[Image]] und nur Teil des Betreibssystems (z.B. fehlt [[Kernel]]). Darauf dann andere Images für verschiedene Funktionalitäten. Es muss nur jeder [[Image]]-Layer, nicht aber das Gesamt-[[Image]] gespeichert werden. Daher ist es sinnvoll, die Anwendung in einem kleinen Layer oben drauf zu packen.
 
 # [[Alpine-Linux]]
 

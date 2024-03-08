@@ -10,6 +10,7 @@ tags:
 draft: false
 date:
 ---
+
 # Image
 
-Ein [[Image]] ist ein Template, um einen [[Docker]]-[[Container]] zu erzeugen. Enthält Schritte, um die entsprechende [[Software]] zu betreiben.  
+Ein [[Image]] ist ein Template, um einen [[Docker]]-[[Container]] zu erzeugen. Enthält Schritte, um die entsprechende Software zu betreiben.  
