@@ -17,11 +17,11 @@ linter-yaml-title-alias: Index
 
 Das hier ist eine Sammlung aller meiner Notizen für das Semester Sechs. Ich habe versucht, die Kurse ein wenig besser sichtbar zu machen. Über das Suchfeld können jetzt auch Inhalte in Texten gesucht werden. Jeder Kurs bekommt jetzt auch eine eigene Startseite, die hier aufgelistet werden soll:
 
-- [[pubdashs/Software Engineering Projekt|Software Engineering Projekt]]
-- [[pubdashs/Mensch Computer Interaktion|Mensch Computer Interaktion]]
-- [[pubdashs/Seminar|Seminar]]
-- [[pubdashs/Betriebssysteme und Rechnernetze|Betriebssysteme Und Rechnernetze]]
-- [[pubdashs/Webprogrammierung|Webprogrammierung]]
+- [[Software Engineering Projekt|Software Engineering Projekt]]
+- [[Mensch Computer Interaktion|Mensch Computer Interaktion]]
+- [[Seminar|Seminar]]
+- [[Betriebssysteme und Rechnernetze|Betriebssysteme Und Rechnernetze]]
+- [[Webprogrammierung|Webprogrammierung]]
 - [[Gesprächs und Verhandlungsführung|Gesprächs Und Verhandlungsführung]]
 - [[Fortgeschrittene Themen des Software Engineering|Fortgeschrittene Themen Des Software Engineering]]
 

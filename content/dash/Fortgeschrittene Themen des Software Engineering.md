@@ -25,5 +25,3 @@ Hier werden allgemeine Informationen, als auch Links zu allen Vorlesungsmitschri
 - [[Container, Docker, Podman]] (07.11.2023)
 - [[GraalVM, Quarkus]] (21.11.2023)
 - [[Was sind Microservices]] (28.11.2023)
-
-- [ ] Ab was sind ms

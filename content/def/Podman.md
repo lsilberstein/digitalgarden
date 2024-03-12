@@ -1,10 +1,12 @@
 ---
 title: Podman
 description: 
-type: 
+type: definition
 kurs: 
 vorlesungnr: 0
-tags: 
+tags:
+  - FTSE
+  - wise2324
 draft: false
 date:
 ---
