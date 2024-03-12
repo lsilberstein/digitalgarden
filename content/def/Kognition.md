@@ -9,6 +9,10 @@ tags:
   - sose24
 draft: false
 date: 
+aliases:
+  - kognitiv
+  - kognitives
+  - kognitiven
 ---
 
 # Kognition
