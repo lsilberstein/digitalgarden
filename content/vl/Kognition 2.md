@@ -3,7 +3,7 @@ title: Kognition 2
 description: 
 type: Vorlesung
 kurs: Mensch Computer Interaktion
-vorlesungnr: 10
+vorlesungnr: 11
 tags:
   - vorlesung
   - sose24

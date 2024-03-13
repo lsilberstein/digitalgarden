@@ -3,7 +3,7 @@ title: Kognition 1
 description: 
 type: Vorlesung
 kurs: Mensch Computer Interaktion
-vorlesungnr: 9
+vorlesungnr: 10
 tags:
   - MCI
   - sose24

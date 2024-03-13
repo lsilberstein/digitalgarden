@@ -3,7 +3,7 @@ title: Kognition 4
 description: 
 type: Vorlesung
 kurs: Mensch Computer Interaktion
-vorlesungnr: 12
+vorlesungnr: 13
 tags:
   - vorlesung
   - sose24

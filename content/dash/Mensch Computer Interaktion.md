@@ -22,6 +22,7 @@ Dieser Kurs arbeitete vor allem mit einzelnen Aufzeichnungen. Deshalb werden hie
 - [[Wahrnehmung Visuelle Wahrnehmung]] (13.03.2024)
 - [[Wahrnehmung Farbwahrnehmung]] (13.03.2024)
 - [[Wahrnehmung Bewegung Tiefe]] (13.03.2024)
+- [[Wahrnehmung Attentive und Präattentive Wahrnehmung]] (13.03.2024)
 - [[Wahrnehmung Täuschung]] (13.03.2024)
 - [[Wahrnehmung Hören]] (13.03.2024)
 - [[Wahrnehmung Sonstige]] (13.03.2024)
@@ -29,6 +30,8 @@ Dieser Kurs arbeitete vor allem mit einzelnen Aufzeichnungen. Deshalb werden hie
 - [[Kognition 2]] (20.03.2024)
 - [[Kognition 3]] (20.03.2024)
 - [[Kognition 4]] (20.03.2024)
+- [[Motorik 1]] (20.03.2024)
+- [[Motorik 2]] (20.03.2024)
 
 ## Literatur
 

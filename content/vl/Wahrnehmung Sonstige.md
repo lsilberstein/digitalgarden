@@ -3,7 +3,7 @@ title: Wahrnehmung Sonstige
 description: 
 type: Vorlesung
 kurs: Mensch Computer Interaktion
-vorlesungnr: 8
+vorlesungnr: 9
 tags:
   - sose24
   - vorlesung

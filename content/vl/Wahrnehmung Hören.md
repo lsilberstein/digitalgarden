@@ -3,9 +3,9 @@ title: Wahrnehmung Hören
 description: 
 type: Vorlesung
 kurs: Mensch Computer Interaktion
-vorlesungnr: 7
+vorlesungnr: 8
 tags:
-  - "MCI"
+  - MCI
   - sose24
   - vorlesung
 draft: false
