@@ -26,6 +26,9 @@ Dieser Kurs arbeitete vor allem mit einzelnen Aufzeichnungen. Deshalb werden hie
 - [[Wahrnehmung Hören]] (13.03.2024)
 - [[Wahrnehmung Sonstige]] (13.03.2024)
 - [[Kognition 1]] (20.03,2024)
+- [[Kognition 2]] (20.03.2024)
+- [[Kognition 3]] (20.03.2024)
+- [[Kognition 4]] (20.03.2024)
 
 ## Literatur
 
