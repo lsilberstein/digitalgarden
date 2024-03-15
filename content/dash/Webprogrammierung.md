@@ -16,3 +16,5 @@ Hier werden allgemeine Informationen, als auch Links zu allen Vorlesungsmitschri
 ## Vorlesungen
 
 - [[Organisatorisches und Einführung in WebProgrammieren]] (06.03.2024)
+- [[CSS - vl 1]] (13.03.2024)
+- [[CSS - vl 2]] (13.03.2024)

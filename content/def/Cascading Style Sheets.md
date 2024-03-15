@@ -29,7 +29,7 @@ Idee: Trennung von Struktur ([[Hypertext Markup Language|HTML]]) und optischer G
 
 ## Prinzip
 
-[[Cascading Style Sheets|CSS]]-Regeln bestimmen, wie [[Hypertext Markup Language|HTML]]-Elemente "gestylt" (visualisiert) werden. Diese bestehen aus einem *Selektor* und der *Deklarationen*. Der Selektor definiert, welche [[Hypertext Markup Language|HTML]]-Elemente angesprochen werden. Die Deklaration legt die Darstellung fest.
+[[Cascading Style Sheets|CSS]]-Regeln bestimmen, wie [[Hypertext Markup Language|HTML]]-Elemente "gestylt" (visualisiert) werden. Diese bestehen aus einem *[[Selektor]]* und der *Deklarationen*. Der [[Selektor]] definiert, welche [[Hypertext Markup Language|HTML]]-Elemente angesprochen werden. Die Deklaration legt die Darstellung fest.
 
 ```css
 h1 {
@@ -48,6 +48,14 @@ h1 {
 - Als Internes Stylesheet (Internal [[Cascading Style Sheets|CSS]]): Im Kopfbereich der [[Webseite]] werden Styles innerhalb des `<style>` Elements definiert.
 - Als Inline Styles (Inline [[Cascading Style Sheets|CSS]]): [[Cascading Style Sheets|Css]]-Deklarattion direkt in einem [[Hypertext Markup Language|HTML]]-Element
 
-## Selektoren
+## Negation Von [[Cascading Style Sheets|CSS]]-Regeln
 
-Es gibt verschiedene Möglichkeiten, zu selektieren, welche [[Hypertext Markup Language|HTML]]-Elemente von einer [[Cascading Style Sheets|CSS]]-Regel betroffen sind. Selektion erfolgt anhand des Typs, einer Klasse, der ID, etc..
+Wenn eine Bedingung nicht zutreffen darf, so kann `:not` verwendet werden. Beispielsweise bezieht sich `p:not(.ital)` auf jedes `<p>`, das nicht der Klassen `.ital` angehört und `p :not(.ital)` auf jeden Nachfahren von `<p>`, der nicht der Klassen `.ital` angehört.
+
+## Vertiefung
+
+- [[Selektor|Selektoren]]
+- [[Pseudoklassen]]
+- [[Kaskadierung]] und [[Kaskadierung|Spezifität]]
+- [[Vererbung]]
+- [[Textformatierung]]

@@ -4,8 +4,12 @@ description:
 type: public dashboard
 kurs: Gesprächs und Verhandlungsführung
 vorlesungnr: 0
-aliases: [Gesprächs Und Verhandlungsführung]
-tags: [publicDashboard, sose24, GuV, WEBPROG]
+aliases:
+  - Gesprächs Und Verhandlungsführung
+tags:
+  - publicDashboard
+  - sose24
+  - GuV
 draft: false
 date: 2024-03-01
 linter-yaml-title-alias: Gesprächs Und Verhandlungsführung
