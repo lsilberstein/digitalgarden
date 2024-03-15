@@ -15,6 +15,8 @@ aliases:
 
 # Transaktionen
 
+[Anomalie (Informatik) – Wikipedia](https://de.wikipedia.org/wiki/Anomalie_(Informatik))
+
 [[Transaktionen]] sollten ACID befolgen:
 
 - A wie Atomicity: [[Transaktionen]] ganz oder gar nicht
@@ -22,7 +24,7 @@ aliases:
 - I wie Isolation: [[Transaktionen]] werden so ausgeführt, also wenn sie allein auf der Datenbank operieren würden
 - D wie Durability: Eine Transaktion ist nach erfolgreichem Abschluss dauerhaft
 
-Die Transaktionenunterstützung ist in JPA abhängig einmal vom JDBC-Treiben und dem Isolations-Level des Datenbanksystem.
+Die Transaktionenunterstützung ist in [[Jakarta Persistence API|JPA]] abhängig einmal vom [[JDBC-Treiber|JDBC]]-Treiben und dem Isolations-Level des Datenbanksystem.
 
 Jakarta [[Transaktionen]] definieren eine Schnittstelle zwischen dem Transaktion-Manager und denen in einem verteilten System beteiligten Parteien:
 
@@ -33,7 +35,7 @@ Es wird sowohl eine programmatische als auch eine deklarative, auf Annotationen 
 
 ## Optimistisches Locking
 
-```
+```java
 @Entity
 public class Kunde {
 	
@@ -46,18 +48,16 @@ public class Kunde {
 
 	private Integer kundennummer;
 	...
-
 ```
 
-Die Idee hier ist, dass keine Operation schief geht. Also soll nur der der Sonderfall (etwas ist schief gegangen) beachtet werden. Diese Art von Locking ist vorzuziehen, da dieser keine Performanzauswirkungen aufweist. In JPA geht dies sehr einfach mit der @Version-Annotation.
+Die Idee hier ist, dass keine Operation schief geht. Also soll nur der der Sonderfall (etwas ist schief gegangen) beachtet werden. Diese Art von Locking ist vorzuziehen, da dieser keine Performanzauswirkungen aufweist. In [[Jakarta Persistence API|JPA]] geht dies sehr einfach mit der @Version-Annotation.
 
 ## Pessimistisches Locking
 
 Hier wird davon ausgegangen, dass häufig Problem auftreten. Die Idee dahinter ist, dass derjenige, der zuerst liest auch den Satz/ die Tabelle sperrt.
 
-```
+```java
 Kunde k = em.find(Kunde.class, <pk>, LockModeType.PESSIMISTIC_READ);
-
 ```
 
-Ein weiterer Parameter `LockModeType.X` bestimmt die Art des Locks (also Beispiel `PESSIMISTICREAD` oder `PESSIMISTIC\_WRITE`. Wirft `javax.persistence.lock.timeout`-Exception.
+Ein weiterer Parameter `LockModeType.X` bestimmt die Art des Locks (also Beispiel `PESSIMISTICREAD` oder `PESSIMISTIC\_WRITE`. Wirft `javax.persistence.lock.timeout`-[[Exception]].

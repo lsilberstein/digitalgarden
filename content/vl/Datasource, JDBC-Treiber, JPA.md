@@ -1,96 +1,53 @@
 ---
-title: Jakarta Persistence API
+title: Datasource, JDBC-Treiber, JPA
 description: 
-type: definition
-kurs: 
-vorlesungnr: 0
+type: Vorlesung
+kurs: Software Engineering Projekt
+vorlesungnr: 2
 tags:
-  - FTSE
-  - wise2324
+  - sose24
+  - vorlesung
   - SOEP
 draft: false
-date: 
-aliases:
-  - JPA
+date: 2024-03-15
 ---
 
-# Jakarta Persistence API
+# Datasource, JDBC-Treiber, JPA
 
-> Umgebungsvariablen setzen; Galleon Layers des [[Wildfly]]-Servers werden benutzt, um u.a. die [[Datasource]] zu konfigurieren.
+## [[Datasource]]
 
-JPA ist Spezifikation. Einige populäre Implementierungen: Hibernate, EclipseLink oder OpenJPA. Hibernate ist im JBoss-AS/[[Wildfly]] eingebaut, kann aber auch standalone verwendet werden.
+Wie benutzen eine [[Datasource]], um eine Verbindung zu einer Datenbank aufzubauen. Eine [[Datasource]] wird dabei zu einer Verbindung abgekapselt. Eine [[Datasource]] ist ein sog. Pool. 
 
-# JPA in Java-SE-Anwendungen
+Im [StudIp](https://studip.ostfalia.de/dispatch.php/course/files?cid=2279f0257d96e0246328dc2444390b27) gibt es eine Beispiel-xml, um die [[Datasource]] einzubinden:
 
-Das folgende Code-Beispiel soll das Allgemeine Vorgehen darstellen:
+```XML
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources xmlns="http://www.jboss.org/ironjacamar/schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.jboss.org/ironjacamar/schema http://docs.jboss.org/ironjacamar/schema/datasources_1_0.xsd">
 
-```java
-EntityManagerFactory emf = Persistence.createEntityManagerFactory("...");
-EntityManager em = emf.createEntityManager(); // Arbeiten mit dem Persistenzkontext ...
-em.close(); 
-emf.close();
+  <datasource jndi-name="java:jboss/datasources/sep" pool-name="sep" enabled="true" use-java-context="true">
+    <connection-url>jdbc:postgresql://localhost:5432/sep</connection-url>
+    <driver>postgresql-42.7.2.jar</driver>
+    <security>
+      <user-name>postgres</user-name>
+      <password>dummy</password>
+    </security>
+  </datasource>
+</datasources>
 ```
 
-## Speichern Von [[Identität|Entities]]
+In `src/main/WEB-INF` ablegen.
 
-```java
-em.getTransaction().begin();
-Kunde kunde = new Kunde("Heidi", "Mustermann", "22.6.1965");
-em.persist(kunde);
-em.getTransaction().commit();
-```
+In der `persistence.xml` wird dabei angegeben, gegen welche [[Datasource|Datasources]] gearbeitet werden soll (`jta-data-source`).
 
-auch möglich ist es, `em.persist(kunde);` vor dem Begin der Transaction aufzurufen.
+## [[JDBC-Treiber]]
 
-## Laden Von [[Identität|Entities]]
+[[JDBC-Treiber|Java Database Connectivity Treiber]] sind Treiber, um die Verbindung zwischen Datenbank und Java Programm zu ermöglichen. 
 
-```java
-Kunde kunde = em.find(Kunde.class , 66); // null oder Kunde
-// oder:
-Kunde kunde =
-em.getReference(Kunde.class, 66);// Except. moegl.
-System.out.println("Id: " + kunde.getId()); System.out.println(kunde.getNachname());//spaet. hier
-```
+[Introduction to JDBC (Java Database Connectivity) - GeeksforGeeks](https://www.geeksforgeeks.org/introduction-to-jdbc/)
 
-`getReference()` *kann* einen Proxy zurückliefern. Andernfalls gibt es eine `EntityNotFoundException` bei Nichtexistenz. Der Zeitpunkt des Werfens ist dabei dem JPA-Provider freigestellt. Der Persistenzkontext agiert also JPAs First-Level-Cache. Das bedeutet, dass Objekte, die sich bereits im Persistenzkontext befinden, nicht noch einmal geladen werden. Also Ausnahme hierfür gilt `refresh()`.
-
-## Aktualisieren Von [[Identität|Entities]]
-
-```java
-em.getTransaction().begin();
-Kunde kunde1 = em.find(Kunde.class, <pk>);
-// Aenderungen am verwalteten Objekt: 
-kunde1.setNachname("Mustermann");
-// bei commit wird automatisch synchronisiert 
-em.getTransaction().commit();
-```
-
-## Löschen Von [[Identität|Entities]]
-
-```java
-em.getTransaction().begin();
-Kunde kunde = em.find(Kunde.class, <pk>); em.remove(kunde);
-// alternativ natuerlich auch so moeglich: 
-em.remove(em.find(Kunde.class, <pk>)); 
-em.getTransaction().commit();
-```
-
-## Zusammenfassung (CRUD)
-
-|   CRUD |    SQL | Entity-Manager |
-|:-------|:-------|:---------------|
-| Create | INSERT |      persist() |
-|   Read | SELECT |         find() |
-| Update | UPDATE |    automatisch |
-| Delete | DELETE |       remove() |
-
-Einige weitere Funktionalität:
-
-- `refresh()` neu lesen aus DB
-- `detach()` loslösen
-- `merge()` wiedereinfügen eines losgelösten [[Identität|Entities]]
-
-# JPA in Jakarte-EE Anwendungen
+## [[Jakarta Persistence API|JPA]]
 
 In Plain Java können Objekte durch den Konstruktor erzeugt. Löschen können wir dieses Objekt an sich nicht, sondern nur automatisch durch den Garbage-Kollektor.
 
@@ -118,7 +75,7 @@ public class KundenService {
 }
 ```
 
-## Callback-Methoden
+### Callback-Methoden
 
 Zusätzlich gibt es Callback-Annotationen, die nach bestimmten Aktionen aufgreufen werden. 
 
@@ -130,7 +87,7 @@ Zusätzlich gibt es Callback-Annotationen, die nach bestimmten Aktionen aufgreuf
 - `@PostUpdate`
 - `@PostLoad`
 
-## Beziehungen
+### Beziehungen
 
 Beziehungen sind bekannt aus der [[Identität|Entity]]-Relation Modellierung durch eine Relationsalgebra (1:1, 1:n, n:1, n:m). Diese werden auch in [[Jakarta Persistence API|JPA]] unterstützt.
 
@@ -140,9 +97,7 @@ Beziehungen sind bekannt aus der [[Identität|Entity]]-Relation Modellierung dur
 - `@ManyToMany`
 - `@ElementCollection`, seit 2.0
 
-Hier vielleicht noch zeigen, wie 1:n und m:n Beziehungen funktionieren.
-
-## Vererbung
+### Vererbung
 
 [[Vererbung]] ist in objeltorientierten Programmiersprachen ein zentrales Konzept. RDBMS ist nichts derartiges vorhanden (has-a versus is-a). Es gibt dabei generell drei Realisierungsmöglichkeiten
 
@@ -180,9 +135,9 @@ List<Kunde> tl = tq.getResultList();
 
 [How does a relational database execute SQL statements and prepared statements - Vlad Mihalcea](https://vladmihalcea.com/relational-database-sql-prepared-statements/)
 
-## Named Queries
+### Named Queries
 
-Queries sind oft verstreut. Deshalb ist eine sinnvolle Zusammenfassung beim [[Identität|Entity]] wünschenswert. Außerdem kann so zum Deploy-Zeitpunkt geparst / optimiert werden. Das wird realisiert über `@NamedQuery`.
+Queries sind oft verstreut. Deshalb ist eine sinnvolle Zusammenfassung beim Entity wünschenswert. Außerdem kann so zum Deploy-Zeitpunkt geparst / optimiert werden. Das wird realisiert über `@NamedQuery`.
 
 ```java
 @NamedQuery(  
@@ -199,7 +154,7 @@ public class Konto { ...
 }
 ```
 
-## Parameter in Abfragen
+### Parameter in Abfragen
 
 `setParameter()`, für Zeit / Datum mit TemporalType.
 
