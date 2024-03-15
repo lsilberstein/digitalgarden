@@ -10,6 +10,7 @@ tags:
 draft: false
 date:
 ---
+
 # Layout
 
 Fragestellung: Wie positioniere ich Elemente auf einer [[Webseite]]? Früher wurden häufig [[Hypertext Markup Language|HTML]]-Tabellen zur Positionierung verwendet; diese sollten aber eigentlich nur zur Darstellung tabellarischer Daten genutzt werden. Eine andere Möglichkeit ist daher: [[Cascading Style Sheets|CSS]]-Layoutsysteme.
@@ -92,3 +93,9 @@ Unabhängig davon, ob das `display` Attribut `block` oder `inline` ist, gibt es 
 ```
 
 ![[Pasted image 20240314193447.png]]
+
+## Vertiefung
+
+- [[Float Layout|Float-Layout]]
+- [[Flexbox-Layout]]
+- [[Grid-Layout]]
