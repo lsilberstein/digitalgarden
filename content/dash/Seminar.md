@@ -17,6 +17,7 @@ Hier werden allgemeine Informationen, als auch Links zu allen Vorlesungsmitschri
 
 - [[Organisatorisches und Vorstellung Themen]] (04.03.2024)
 - [[Wissenschaftliches Arbeiten]] (11.03.2024)
+- [[Writing Lab - Exposé und Gliederung]] (18.03.2024)
 
 # Research
 
