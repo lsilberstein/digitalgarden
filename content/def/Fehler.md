@@ -44,3 +44,7 @@ Wie können [[Fehler]] jeglicher Art vermieden werden?
 1. Redundanz
 2. Robustheit
 3. Einfachheit
+
+## Vertiefung
+
+[[Murphys Gesetz]]

@@ -8,7 +8,9 @@ tags:
   - sose24
   - MCI
 draft: false
-date:
+date: 
+aliases:
+  - räumliche Hören
 ---
 # Räumliches Hören
 

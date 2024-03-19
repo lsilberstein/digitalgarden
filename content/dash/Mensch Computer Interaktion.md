@@ -34,6 +34,9 @@ Dieser Kurs arbeitete vor allem mit einzelnen Aufzeichnungen. Deshalb werden hie
 - [[Motorik 2]] (20.03.2024)
 - [[Modelle 1]] (27.03.2024)
 - [[Modelle 2 - Fehler]] (27.03.2024)
+- [[Technik 1 - Eingabegeräte]] (27.03.2024)
+- [[Technik 2 - Visuell]] (27.03.2024)
+- [[Technik 3 - Akustisch]] (27.03.2024)
 
 ## Literatur
 

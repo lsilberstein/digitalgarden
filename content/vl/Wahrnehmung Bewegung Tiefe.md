@@ -15,7 +15,7 @@ Link: https://lecture2go.ostfalia.de/l2go/-/get/v/wuLdvcnRxpajL9sIkaxq9wxx
 
 # Wahrnehmung Bewegung Tiefe
 
-## Dynamisches Sehen
+## [[Dynamisches Sehen]]
 
 Das dynamische Sehen behandelt die Diskretisierung, bzw. Quantelung der erlebten Zeit. Die meisten Zeitabläufe in der echten Welt sind langsam genug, sodass diese Diskretisierung uns im Alltag nicht auffällt.
 
