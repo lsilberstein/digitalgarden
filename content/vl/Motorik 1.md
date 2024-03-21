@@ -12,6 +12,7 @@ draft: false
 date: 2024-03-20
 Link: https://lecture2go.ostfalia.de/l2go/-/get/v/R8agJw9O6CMfHyAHFQmAWAxx
 ---
+
 # Motorik 1
 
 ## [[Handlungsregulation]]
@@ -28,7 +29,7 @@ e4 --|Aktoren|--> e3
 e3 --|Sensoren|--> e4
 ```
 
-Siehe hier ein Ablaufschemata, wie eine Handlung bestimmt wird. Zielsetzung, Planung und Ausführung wird ständig durch eine Rückkopplung / einen Abgleich  reguliert.
+Siehe hier ein Ablaufschemata, wie eine Handlung bestimmt wird. Zielsetzung, Planung und Ausführung wird ständig durch eine Rückkopplung / einen Abgleich reguliert.  
 Es gibt nun verschiedene Ebenen auf denen dieser *Abgleich* geschehen kann. Hacker (1996) unterscheidet hier zwischen drei Ebenen.
 
 1. Bewusste Handlungen: Intellektuelle Regulationsebene; Auf dieser Ebene ist nur eine bewusste, intelletuelle Handlung gleichzeitig möglich
