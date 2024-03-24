@@ -48,8 +48,7 @@ Die Erkundung und Analyse von Daten findet in Python oft in sogenannten Jupyter 
 
 | Vorteile                                                                                                                                               | Nachteile                                                                                  |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
-| Als eine sehr populäre Sprache ist Hilfe für Allgemeine Fragen und Hilfe mit der Programmiersprache weit verbreitet                                    | Im Gegensatz zu R und Knime, kann Python eher einschüchternd durch die Komplexität wirken. |
-| Da Python auf allgemeinere Anwendungsmöglichkeiten besitzt, ist diese Programmiersprache auch ein guter Einstiegspunkt, das Programmieren zu erlernen. |                                                                                            |
+
 
 ## R (& RStudio)
 

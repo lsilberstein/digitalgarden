@@ -12,7 +12,7 @@ date:
 ---
 # WildFly
 
-Auf [[Docker]] hub: `jboss/wildfly`, aber mittlerweile umgezogen auf quay.io (`quay.io/wildfly/wildfly`). Herunterladen und starten des Images funktioniert über
+Auf [[Docker]] hub: `jboss/wildfly`, aber mittlerweile umgezogen auf quay.io (`quay.io/wildfly/wildfly`). Herunterladen und starten de s Images funktioniert über
 
 ```bash
 docker pull quay.io/wildfly/wildfly
