@@ -41,13 +41,14 @@ Einige Möglichkeiten sind
 
 [Ostfalia - Literatur finden](https://www.ostfalia.de/cms/de/bib/literatur_finden/)
 
-| Datenbank                          | Verfügbar über                                                           | Anmerkung                                                |
-| ---------------------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------- |
-| Google Scholar                     | [Google Scholar](https://scholar.google.de/)                             | Vorsicht: Keine Qualitätsprüfung der gelisteten Quellen! |
-| Research Gate                      | [ResearchGate \| Find and share research](https://www.researchgate.net/) |                                                          |
-| IEEE Xplore                        | [IEEE Xplore](https://ieeexplore.ieee.org/Xplore/home.jsp)               | FH-Intranet / VPN oder Login                             |
-| Association for computer machinery | [ACM Digital Library](https://dl.acm.org/)                               | FH-Intranet / VPN                                        |
-| dblp computer science bibliography | [dblp: computer science bibliography](https://dblp.org/)                 |                                                          |
+| Datenbank                             | Verfügbar über                                                                                  | Anmerkung                                                |
+| ------------------------------------- | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| Google Scholar                        | [Google Scholar](https://scholar.google.de/)                                                    | Vorsicht: Keine Qualitätsprüfung der gelisteten Quellen! |
+| Research Gate                         | [ResearchGate \| Find and share research](https://www.researchgate.net/)                        |                                                          |
+| IEEE Xplore                           | [IEEE Xplore](https://ieeexplore.ieee.org/Xplore/home.jsp)                                      | FH-Intranet / VPN oder Login                             |
+| Association for computer machinery    | [ACM Digital Library](https://dl.acm.org/)                                                      | FH-Intranet / VPN                                        |
+| dblp computer science bibliography    | [dblp: computer science bibliography](https://dblp.org/)                                        |                                                          |
+| Elektronische Zeitschriftenbibliothek | [Zeitschriftenliste nach Fachgebiet \| Elektronische Zeitschriftenbibliothek](http://ezb.ur.de) |                                                          |
 
 ## Wie Soll Ich Recherchieren?
 

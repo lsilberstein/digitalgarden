@@ -13,7 +13,7 @@ date: 2024-03-22
 ---
 # Teameinteilung Und CDI
 
-## DataTable
+## [[DataTable]]
 
 ```xhtml
 <h:dataTable value="#{messageController.getAllMessages()}" var="message">
@@ -25,11 +25,11 @@ date: 2024-03-22
 
 [dataTable (Jakarta Server Faces 3.0.0 VDL Documentation)](https://redesign--jakartaee.netlify.app/specifications/faces/3.0/vdldoc/html_basic/datatable)
 
-## Java Style Guide
+## [[Java Style Guide]]
 
 [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 
-## Session Beans
+## [[Session Beans]]
 
 Es gibt einige Arten von Session Beans:
 
