@@ -37,6 +37,10 @@ Dieser Kurs arbeitete vor allem mit einzelnen Aufzeichnungen. Deshalb werden hie
 - [[Technik 1 - Eingabegeräte]] (27.03.2024)
 - [[Technik 2 - Visuell]] (27.03.2024)
 - [[Technik 3 - Akustisch]] (27.03.2024)
+- [[Grundregeln 1 - Affordance]] (03.04.2024)
+- [[Grundregeln 2 - Constraints]] (03.04.2024)
+- [[Grundregeln 3 - Mappings]] (03.04.2024)
+- [[Grundregeln 4 - Konsistenz und Vorhersagbarkeit, Feedback]] (03.04.2024)
 
 ## Literatur
 
