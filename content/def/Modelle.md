@@ -16,6 +16,7 @@ aliases:
   - mentale Modelle
   - mentalen Modellen
   - mentalen Modelle
+  - Modells
 ---
 
 # Modelle

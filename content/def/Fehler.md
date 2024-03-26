@@ -19,7 +19,7 @@ Mit [[Fehler|Fehlern]] meinen wir [[Fehler]] beim Benutzen einer Software oder e
 
 ![[Pasted image 20240318155111.png]]
 
-Bei der Rückmeldung des Systems an den Nutzer spricht man von einem *Gulf of evaluation*, während die andere Seite ein *Gulf of execution* ist.
+Bei der [[Feedback|Rückmeldung]] des Systems an den Nutzer spricht man von einem *Gulf of evaluation*, während die andere Seite ein *Gulf of execution* ist.
 
 ## Arten Von Fehlern
 
@@ -37,14 +37,8 @@ Beide Probleme haben als Grund, dass die [[Modelle|mentalen Modelle]] die zugrun
 - Aktivierungsverlust: Bei Verlust des Kontextes
 - Modusfehler: Falsche Anwendung beendet
 
-## Fehler Vermeiden
-
-Wie können [[Fehler]] jeglicher Art vermieden werden?
-
-1. Redundanz
-2. Robustheit
-3. Einfachheit
-
 ## Vertiefung
 
-[[Murphys Gesetz]]
+- [[Murphys Gesetz]]
+- [[Fehlervermeidung]]
+- [[Fehlertoleranz]]

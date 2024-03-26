@@ -41,6 +41,10 @@ Dieser Kurs arbeitete vor allem mit einzelnen Aufzeichnungen. Deshalb werden hie
 - [[Grundregeln 2 - Constraints]] (03.04.2024)
 - [[Grundregeln 3 - Mappings]] (03.04.2024)
 - [[Grundregeln 4 - Konsistenz und Vorhersagbarkeit, Feedback]] (03.04.2024)
+- [[Grundregeln 5 - Fehlertoleranz und Fehlervermeidung]] (03.04.2024)
+- [[Grundregeln 6 - Interface Animation]] (03.04.2024)
+- [[Grundregeln 7 - Physikanalogie]] (03.04.2024)
+- [[Grundregeln 8 - Metaphern]] (03.04.2024)
 
 ## Literatur
 

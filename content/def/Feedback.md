@@ -24,3 +24,5 @@ Eine [[Tastatur]] gibt zum Beispiel ein haptisches [[Feedback]].
 Manchmal kann ein Befehl länger dauern. Dann sollte ein Signal gegeben werden, dass dieser Befehl noch ausgeführt wird.
 
 ![[Pasted image 20240326094420.png]]
+
+Siehe auch [[Zeitliche Auflösung]]
