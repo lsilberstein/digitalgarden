@@ -40,10 +40,10 @@ Die Modellbildung geschieht dabei durch [[Lernen]]. Wenn das [[Modelle|mentale M
 [[Modelle]] sollten flexibel und transparent sein.
 
 > [!Definition]  
-> *Transparenz* erfordert, dass das konzeptuelle [[Modelle|Modell]] des Designers und das [[Modelle|mentale Modell]] des Benutzers gleich ist. 
+> *[[Transparenz]]* erfordert, dass das konzeptuelle [[Modelle|Modell]] des Designers und das [[Modelle|mentale Modell]] des Benutzers gleich ist. 
 
 > [!Definition]  
-> Flexibilität bedeutet, dass verschiedene Wege zum Ziel führen können.
+> [[Flexibilität]] bedeutet, dass verschiedene Wege zum Ziel führen können.
 
 ## Vertiefung 
 
